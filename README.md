@@ -4,7 +4,9 @@
 
 A mobile-first, vertically swiped feed of real-life questions answered through Scripture. Built with **Expo SDK 58, React Native 0.88, Expo Router, and TypeScript** — one codebase for web, iOS, and Android.
 
-> **Status: Phase 1 prototype.** The visual experience and core flows are complete with a 20-card seed library. Scripture text is verified; theological review of the explanations is still **pending** (see [Before launch](#before-launch)).
+> **Status: Phase 1 prototype.** The visual experience and core flows are complete with 42 published cards across 10 categories and 20 topics. Scripture text is verified; theological review of the explanations is still **pending** (see [Before launch](#before-launch)).
+>
+> **Live preview:** https://biblesays.brennen-d06.workers.dev
 
 ## Run it
 
@@ -23,6 +25,12 @@ npm run typecheck
 npx expo lint
 npm run content:check
 ```
+
+## Deploy and test builds
+
+- **Web (Cloudflare Workers static assets):** `npm run deploy` exports the web build to `dist/` and runs `wrangler deploy` (config in `wrangler.jsonc`). Unknown paths serve `index.html`, so deep links like `/card/<slug>` and `/topic/<id>` work.
+- **Android test APK (EAS Build):** `npx eas-cli@latest build -p android --profile preview`. The `preview` profile in `eas.json` produces an installable APK; the build page links the download. Project: `@brennenhodge/bible-discovery`, package `com.dbvantage.biblesays`.
+- On Windows PowerShell, if `npx` is blocked by the script execution policy, use `npx.cmd`.
 
 ## What's in Phase 1
 
@@ -50,11 +58,15 @@ content/                 Editable content library (no code changes needed to gro
   topics.json            Primary topics + lightweight hashtags, #Anxiety's 15 subtopics
   categories.json        Top-level categories
   images.json            Image assets with provider, license, attribution, blurhash
+  scripture/             Verified text per translation (nkjv.json, kjv.json, web.json), keyed by reference
 scripts/
-  fetch-scripture.mjs    Pull verified text for every reference (bible-api.com, WEB)
-  content-sync.mjs       Fill verified text into cards, stamp verification, validate everything
+  fetch-scripture.mjs    Pull verified NKJV/KJV/WEB text for every reference into content/scripture/
+  show-verse.mjs         Print a passage in every translation (read-only, for writers)
+  import-cards.mjs       Import a batch of drafted cards and their Unsplash picks
+  content-sync.mjs       Validate references, quote integrity, taxonomy, images; stamp editorial defaults
+  lib/                   Scripture providers (bolls.life for NKJV, bible-api.com for KJV/WEB)
   find-images.mjs        Search Unsplash (official API) for portrait candidates
-  sync-images.mjs        Build content/images.json from picks; --register pings Unsplash download endpoints
+  sync-images.mjs        Build content/images.json from picks; --register pings Unsplash download endpoints for new picks
 src/
   app/                   Expo Router screens
   components/            BibleCard, CardFeed, CardImage, DesktopShell, …
@@ -67,24 +79,27 @@ src/
 
 ## Content workflow
 
-1. Add or edit a card in `content/cards.json` (leave `scripture.passages[].text` empty and set `status: "draft"`).
-2. `npm run scripture:fetch`: fetches verified text for any new references into `scripts/data/scripture-cache.json`.
-3. `npm run content:sync`: fills the text, stamps verification, and validates topics, tags, images, related cards, explanation length (35–70 words), tag count (2–4), and that every quoted phrase in an explanation actually appears in the verified Scripture.
+1. Add or edit a card in `content/cards.json` with `status: "draft"`, or import a batch: `npm run content:import -- drafts.json`. Use `npm run scripture:show -- "Psalm 139:14"` to read a passage in every translation while writing.
+2. `npm run scripture:fetch`: fetches verified NKJV/KJV/WEB text for any new references into `content/scripture/`.
+3. `npm run content:sync`: validates that every reference is verified in every translation, quote integrity across translations, topics/tags/categories/images/related cards, explanation length (35–70 words), tag count (2–4), and no reused images.
 4. Preview it in the **Content studio** (Profile → Content studio), get theological review, then set `status: "published"`.
 
 Only `published` cards appear in public surfaces.
 
-**Images:** `npm run images:find -- "query one" "query two"` reads `UNSPLASH_ACCESS_KEY` from `.env` (gitignored). Record picks in `scripts/data/image-picks.json`, then run `npm run images:sync -- --register`. Images are hotlinked from Unsplash's CDN with photographer credit, as the Unsplash API guidelines require. Credits are listed in Profile.
+**Images:** `npm run images:find -- "query one" "query two"` reads `UNSPLASH_ACCESS_KEY` from `.env` (gitignored). Record picks in `scripts/data/image-picks.json`, then run `npm run images:sync -- --register`. It pings Unsplash only for photos not yet listed in `scripts/data/unsplash-registered.json`, and stops when the hourly limit (50 requests on the demo key) runs out; rerun it later to finish. Images are hotlinked from Unsplash's CDN with photographer credit, as the Unsplash API guidelines require. Credits are listed in Profile.
 
-## Scripture & licensing
+## Scripture & translations
 
-- Prototype text is the **World English Bible (public domain)**, verified against bible-api.com. Every displayed verse and every related passage in Go Deeper comes from that verified cache.
-- **NLT** (preferred) is modeled in `config/app.ts` but disabled until licensed. Tyndale offers an NLT API with a key. Add a provider to `fetch-scripture.mjs` and switch `translation` per card. Never type NLT wording from memory or generate it with AI.
+- **Default: New King James Version (NKJV).** Readers can switch to the **KJV** or **WEB** in Profile. Cards store only references; text comes from `content/scripture/<code>.json`, one verified store per translation, so adding a translation never touches the cards.
+- **Sources:** NKJV comes from bolls.life (spot-checked against Faithlife's licensed text at biblia.com). KJV and WEB come from bible-api.com. Providers live in `scripts/lib/scripture-providers.mjs`.
+- **Quote integrity:** `content:sync` fails if any 3+ word phrase quoted in an explanation or study note isn't word-for-word in *every* offered translation, so switching translations never shows a false quote.
+- **NKJV licensing:** Thomas Nelson's published terms allow quoting up to 1,000 verses without written permission, with exact wording and this credit line: *"Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved."* Those terms are written for printed works, so **confirm digital/app use with Thomas Nelson Bible Rights & Permissions** before a commercial launch. The app shows the credit line in Profile and appends it to shared NKJV text.
+- **NLT** stays modeled but disabled until licensed. Never type any translation from memory or generate it with AI.
 
 ## Before launch
 
-- [ ] Theological/editorial review of all 20 explanations and study notes. All are marked `theologicalReview: "pending"`.
-- [ ] NLT license and provider, or choose another licensed translation.
+- [ ] Theological/editorial review of every explanation and study note. All are marked `theologicalReview: "pending"`.
+- [ ] Written confirmation of NKJV digital/app use from Thomas Nelson, and a licensed NKJV provider for production.
 - [ ] Final app name. "Selah" is a placeholder in `config/app.ts` / `app.json`.
 - [ ] Validate on real iOS and Android devices (`npm start` → Expo Go, or an EAS development build).
 - [ ] Share-as-image (e.g. `react-native-view-shot`). Sharing currently sends text plus a deep link.

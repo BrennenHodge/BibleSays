@@ -5,9 +5,12 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { CardImage } from '@/components/CardImage';
 import { IconButton } from '@/components/IconButton';
-import { getAllCardsForStudio, getImage, hashtag, scriptureReference } from '@/content/repository';
-import type { EditorialStatus } from '@/content/types';
+import { availableTranslations } from '@/config/app';
+import { getAllCardsForStudio, getImage, hashtag, isVerified, scriptureReference } from '@/content/repository';
+import type { Card, EditorialStatus } from '@/content/types';
 import { colors, fonts, radius, space } from '@/theme/tokens';
+
+const fullyVerified = (c: Card) => availableTranslations.every((t) => isVerified(c, t.code));
 
 const STATUS_COLORS: Record<EditorialStatus, string> = {
   draft: colors.creamFaint,
@@ -41,9 +44,10 @@ export default function StudioScreen() {
       </View>
       <ScrollView contentContainerStyle={styles.content}>
         <Text style={styles.note}>
-          {all.length} cards · {all.filter((c) => c.scripture.verification?.status === 'verified').length} with verified
-          Scripture · {all.filter((c) => c.editorial?.theologicalReview === 'approved').length} theologically approved.
-          Edit content/cards.json, then run npm run content:sync.
+          {all.length} cards · {all.filter((c) => fullyVerified(c)).length} with verified Scripture in{' '}
+          {availableTranslations.map((t) => t.code).join(', ')} ·{' '}
+          {all.filter((c) => c.editorial?.theologicalReview === 'approved').length} theologically approved. Edit
+          content/cards.json, then run npm run scripture:fetch and npm run content:sync.
         </Text>
         <View style={styles.filters}>
           {statuses.map((s) => (
@@ -78,8 +82,11 @@ export default function StudioScreen() {
                 </View>
                 <Text style={styles.q}>{c.question}</Text>
                 <Text style={styles.meta}>
-                  {scriptureReference(c)} {c.scripture.translation} ·{' '}
-                  {c.scripture.verification?.status === 'verified' ? '✓ verified' : '✗ unverified'} · review{' '}
+                  {scriptureReference(c)} ·{' '}
+                  {availableTranslations
+                    .map((t) => `${isVerified(c, t.code) ? '✓' : '✗'} ${t.code}`)
+                    .join(' ')}{' '}
+                  · review{' '}
                   {c.editorial?.theologicalReview ?? 'pending'} · {c.interpretation.replace(/-/g, ' ')}
                 </Text>
                 <Text style={styles.meta}>

@@ -7,24 +7,42 @@ export const appConfig = {
   appName: 'Selah',
   tagline: "The Bible, explained for the life you're actually living.",
 
-  /** Translations the app knows about. Only `available` ones can be selected. */
+  /**
+   * Translations the app knows about. Only `available` ones can be selected, and each
+   * needs verified text in content/scripture/<code>.json for every reference.
+   */
   translations: [
+    {
+      code: 'NKJV',
+      name: 'New King James Version',
+      available: true,
+      license: '© 1982 Thomas Nelson',
+      attribution:
+        'Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.',
+    },
+    {
+      code: 'KJV',
+      name: 'King James Version',
+      available: true,
+      license: 'Public domain',
+      attribution: 'King James Version (public domain).',
+    },
     {
       code: 'WEB',
       name: 'World English Bible',
       available: true,
       license: 'Public domain',
-      note: 'Used for the prototype. Text verified against bible-api.com.',
+      attribution: 'World English Bible (public domain).',
     },
     {
       code: 'NLT',
       name: 'New Living Translation',
       available: false,
       license: 'Requires Tyndale House license',
-      note: 'Preferred translation. Enable once licensed text is supplied by an authorized provider.',
+      attribution: '',
     },
   ],
-  defaultTranslation: 'WEB',
+  defaultTranslation: 'NKJV',
 
   premium: {
     productName: 'Go Deeper',
@@ -42,7 +60,7 @@ export const appConfig = {
 
   share: {
     /** Public origin used to build deep links when sharing. */
-    webOrigin: 'https://example.app',
+    webOrigin: 'https://biblesays.brennen-d06.workers.dev',
   },
 
   care: {
@@ -52,3 +70,5 @@ export const appConfig = {
 } as const;
 
 export type TranslationCode = (typeof appConfig.translations)[number]['code'];
+
+export const availableTranslations = appConfig.translations.filter((t) => t.available);

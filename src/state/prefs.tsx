@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 
 import { appConfig } from '@/config/app';
+import { resolveTranslation } from '@/content/repository';
 
 import { readJSON, writeJSON } from './storage';
 
@@ -11,6 +12,8 @@ export interface Prefs {
   interests: string[];
   textSize: TextSize;
   translation: string;
+  /** True once the reader picks a translation themselves (vs. inheriting the default). */
+  translationChosen: boolean;
   /** Prototype-only entitlement flag. Replace with real subscription state in Phase 2. */
   premiumPreview: boolean;
 }
@@ -20,6 +23,7 @@ const DEFAULTS: Prefs = {
   interests: [],
   textSize: 'default',
   translation: appConfig.defaultTranslation,
+  translationChosen: false,
   premiumPreview: false,
 };
 
@@ -40,7 +44,10 @@ export function PrefsProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     readJSON<Partial<Prefs>>(KEY, {}).then((stored) => {
-      setPrefs({ ...DEFAULTS, ...stored });
+      const next = { ...DEFAULTS, ...stored };
+      // Readers who never chose a translation follow the current default.
+      if (!next.translationChosen) next.translation = appConfig.defaultTranslation;
+      setPrefs(next);
       setReady(true);
     });
   }, []);
@@ -72,4 +79,9 @@ const SCALE: Record<TextSize, number> = { small: 0.92, default: 1, large: 1.12 }
 
 export function useTextScale() {
   return SCALE[usePrefs().prefs.textSize];
+}
+
+/** The reader's Bible translation, guaranteed to be an available one. */
+export function useTranslation() {
+  return resolveTranslation(usePrefs().prefs.translation);
 }

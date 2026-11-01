@@ -12,6 +12,7 @@ import {
 
 import type { Card } from '@/content/types';
 import { shareCard } from '@/services/share';
+import { useTranslation } from '@/state/prefs';
 import { useSaved } from '@/state/saved';
 import { colors } from '@/theme/tokens';
 
@@ -42,6 +43,7 @@ export function CardFeed({ cards, renderCover, renderEnd, topInset = 64, onActiv
   const router = useRouter();
   const toast = useToast();
   const { isSaved, toggle } = useSaved();
+  const translation = useTranslation();
   const listRef = useRef<FlatList<Page>>(null);
   const [size, setSize] = useState({ width: 0, height: 0 });
   const [active, setActive] = useState(0);
@@ -119,11 +121,11 @@ export function CardFeed({ cards, renderCover, renderEnd, topInset = 64, onActiv
   );
   const onShare = useCallback(
     async (card: Card) => {
-      const result = await shareCard(card);
+      const result = await shareCard(card, translation);
       if (result === 'copied') toast('Card copied to clipboard');
       if (result === 'failed') toast('Sharing isn’t available here');
     },
-    [toast],
+    [toast, translation],
   );
   const onGoDeeper = useCallback(
     (card: Card) => router.push({ pathname: '/deeper/[id]', params: { id: card.id } }),

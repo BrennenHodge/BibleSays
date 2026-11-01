@@ -1,18 +1,22 @@
 #!/usr/bin/env node
 /**
- * Editorial sync + validation for /content.
+ * Editorial validation for /content (run after scripture:fetch).
  *
- *  1. Fills Scripture text on each card (and related passages) from the verified
- *     cache produced by fetch-scripture.mjs, and stamps verification metadata.
- *  2. Validates references between cards, topics and images.
- *  3. Flags quality issues: explanation length, tag count, and quoted phrases in
- *     explanations that don't appear in the card's verified Scripture.
+ *  1. Every reference (card passages, related passages, study citations) has verified
+ *     text in EVERY supported translation (content/scripture/<code>.json).
+ *  2. Quote integrity: any quoted phrase (3+ words) in an explanation, background note,
+ *     related-passage note, or reflection must appear word-for-word in every translation
+ *     of that card's Scripture — so switching translations never shows a false quote.
+ *  3. References between cards, topics, categories and images resolve.
+ *  4. Quality: explanation length 35–70 words, 2–4 tags, unique image per published card.
  *
  * Usage: node scripts/content-sync.mjs [--check]   (--check = validate only, no writes)
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+import { TRANSLATIONS } from './lib/scripture-providers.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p) => JSON.parse(readFileSync(join(root, p), 'utf8'));
@@ -22,7 +26,7 @@ const cards = read('content/cards.json');
 const topics = read('content/topics.json');
 const categories = read('content/categories.json');
 const images = read('content/images.json');
-const cache = read('scripts/data/scripture-cache.json');
+const stores = Object.fromEntries(TRANSLATIONS.map((t) => [t, read(`content/scripture/${t.toLowerCase()}.json`)]));
 
 const topicIds = new Set(topics.map((t) => t.id));
 const categoryIds = new Set(categories.map((c) => c.id));
@@ -31,43 +35,48 @@ const errors = [];
 const warnings = [];
 const today = new Date().toISOString().slice(0, 10);
 
-const norm = (s) => s.toLowerCase().replace(/[“”"’‘']/g, "'").replace(/\s+/g, ' ');
+const norm = (s) =>
+  s
+    .toLowerCase()
+    .replace(/[“”"‘’']/g, '')
+    .replace(/[.,;:!?()—–-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+const imageUse = new Map();
 
 for (const card of cards) {
   const where = `[${card.id}]`;
-  const translation = card.scripture.translation.toLowerCase();
+  const refs = [
+    ...card.scripture.passages.map((p) => p.reference),
+    ...(card.study?.relatedPassages ?? []).map((r) => r.reference),
+    ...(card.study?.citations ?? []),
+  ];
 
-  // 1. Scripture text from verified cache
-  let allVerified = true;
-  for (const p of card.scripture.passages) {
-    const hit = cache[`${translation}:${p.reference}`];
-    if (!hit) {
-      allVerified = false;
-      errors.push(`${where} no verified ${card.scripture.translation} text for ${p.reference} — run fetch-scripture`);
-      continue;
+  // 1. Verified text in every translation
+  for (const ref of refs) {
+    for (const t of TRANSLATIONS) {
+      if (!stores[t][ref]?.text) errors.push(`${where} no verified ${t} text for ${ref} — run npm run scripture:fetch`);
     }
-    if (p.text && norm(p.text) !== norm(hit.text)) {
-      allVerified = false;
-      errors.push(`${where} text for ${p.reference} does not match verified source`);
-      continue;
+  }
+
+  // 2. Quote integrity across translations
+  const quotedFields = [
+    ['explanation', card.explanation],
+    ['background', card.study?.context ?? ''],
+    ['reflection', card.study?.reflection ?? ''],
+    ...(card.study?.relatedPassages ?? []).map((r) => [`note on ${r.reference}`, r.note]),
+  ];
+  for (const [field, text] of quotedFields) {
+    for (const m of text.matchAll(/“([^”]+)”/g)) {
+      const phrase = norm(m[1]);
+      if (phrase.split(' ').length < 3) continue;
+      const missing = TRANSLATIONS.filter(
+        (t) => !refs.some((ref) => norm(stores[t][ref]?.text ?? '').includes(phrase)),
+      );
+      if (missing.length)
+        errors.push(`${where} ${field} quotes “${m[1]}”, which isn't in the ${missing.join('/')} text of its passages`);
     }
-    p.text = hit.text;
-  }
-  for (const r of card.study?.relatedPassages ?? []) {
-    const hit = cache[`${translation}:${r.reference}`];
-    if (hit) r.text = hit.text;
-    else warnings.push(`${where} related passage ${r.reference} not verified`);
-  }
-  if (allVerified) {
-    const first = cache[`${translation}:${card.scripture.passages[0].reference}`];
-    card.scripture.verification = {
-      status: 'verified',
-      source: 'bible-api.com',
-      license: first.license,
-      verifiedAt: card.scripture.verification?.verifiedAt ?? today,
-    };
-  } else {
-    card.scripture.verification = { status: 'unverified', source: '', license: '', verifiedAt: '' };
   }
 
   // Editorial metadata defaults
@@ -81,7 +90,7 @@ for (const card of cards) {
     ...card.editorial,
   };
 
-  // 2. References
+  // 3. References
   if (!categoryIds.has(card.primaryCategory)) errors.push(`${where} unknown category ${card.primaryCategory}`);
   if (!topicIds.has(card.primaryTopic)) errors.push(`${where} unknown primary topic ${card.primaryTopic}`);
   for (const t of card.tags) if (!topicIds.has(t)) errors.push(`${where} unknown tag ${t}`);
@@ -93,35 +102,40 @@ for (const card of cards) {
     if (!topic?.subtopics?.some((s) => s.id === card.subtopic))
       errors.push(`${where} unknown subtopic ${card.subtopic}`);
   }
+  if (card.status === 'published') {
+    const prev = imageUse.get(card.image.key);
+    if (prev) errors.push(`${where} reuses image ${card.image.key} (also on ${prev})`);
+    imageUse.set(card.image.key, card.id);
+  }
 
-  // 3. Quality
+  // 4. Quality
   const words = card.explanation.split(/\s+/).length;
   if (words < 35 || words > 70) warnings.push(`${where} explanation is ${words} words (target 35–70)`);
   if (card.tags.length < 2 || card.tags.length > 4) warnings.push(`${where} has ${card.tags.length} tags (target 2–4)`);
-  const scripture = norm(
-    card.scripture.passages.map((p) => p.text).join(' ') +
-      ' ' +
-      (card.study?.relatedPassages ?? []).map((r) => r.text ?? '').join(' '),
-  );
-  for (const m of card.explanation.matchAll(/“([^”]+)”/g)) {
-    const phrase = norm(m[1]).replace(/[.,]$/, '');
-    if (phrase.split(' ').length >= 3 && !scripture.includes(phrase))
-      warnings.push(`${where} quoted phrase not found in card Scripture: “${m[1]}”`);
-  }
+  if (!card.tags.includes(card.primaryTopic)) warnings.push(`${where} tags don't include its primary topic`);
 }
 
-// Images used by topics
 for (const t of topics) {
+  if (!categoryIds.has(t.categoryId)) errors.push(`[topic ${t.id}] unknown category ${t.categoryId}`);
   if (t.coverImageKey && !images[t.coverImageKey]) errors.push(`[topic ${t.id}] missing cover image`);
   for (const r of t.related ?? []) if (!topicIds.has(r)) errors.push(`[topic ${t.id}] unknown related ${r}`);
+  if (t.kind === 'primary' && !cards.some((c) => c.status === 'published' && c.primaryTopic === t.id))
+    warnings.push(`[topic ${t.id}] primary topic has no published cards`);
+}
+for (const c of categories) {
+  if (!topics.some((t) => t.kind === 'primary' && t.categoryId === c.id))
+    warnings.push(`[category ${c.id}] has no primary topics`);
 }
 
 for (const w of warnings) console.warn(`⚠ ${w}`);
 for (const e of errors) console.error(`✗ ${e}`);
 
 const published = cards.filter((c) => c.status === 'published').length;
+const primary = topics.filter((t) => t.kind === 'primary').length;
 console.log(
-  `\n${cards.length} cards (${published} published), ${topics.length} topics, ${Object.keys(images).length} images — ${errors.length} errors, ${warnings.length} warnings`,
+  `\n${cards.length} cards (${published} published), ${categories.length} categories, ${primary} primary topics, ` +
+    `${topics.length} topics/tags, ${Object.keys(images).length} images, translations ${TRANSLATIONS.join('/')} — ` +
+    `${errors.length} errors, ${warnings.length} warnings`,
 );
 
 if (!checkOnly && !errors.length) {

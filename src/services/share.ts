@@ -16,22 +16,26 @@ export function cardUrl(card: Card): string {
 }
 
 /** Public card content only — private study conversations are never included. */
-export function shareText(card: Card): string {
-  return [
+export function shareText(card: Card, translation: string): string {
+  const lines = [
     card.question,
     '',
-    `“${scriptureText(card)}”`,
-    `— ${scriptureReference(card)} (${card.scripture.translation})`,
+    `“${scriptureText(card, translation)}”`,
+    `— ${scriptureReference(card)} (${translation})`,
     '',
     card.explanation,
     '',
     hashtag(card.primaryTopic),
-  ].join('\n');
+  ];
+  // Copyrighted translations require their acknowledgment wherever the text appears.
+  const attribution = appConfig.translations.find((t) => t.code === translation)?.attribution;
+  if (attribution && translation === 'NKJV') lines.push('', attribution);
+  return lines.join('\n');
 }
 
-export async function shareCard(card: Card): Promise<ShareResult> {
+export async function shareCard(card: Card, translation: string): Promise<ShareResult> {
   const url = cardUrl(card);
-  const text = shareText(card);
+  const text = shareText(card, translation);
   try {
     if (Platform.OS === 'web') {
       const nav = typeof navigator !== 'undefined' ? navigator : undefined;

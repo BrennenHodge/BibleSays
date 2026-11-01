@@ -5,12 +5,12 @@ import type { Card } from '@/content/types';
  * System prompt for the Phase 2 AI study provider. Kept here so the guardrails are
  * reviewed alongside the prototype. Not used at runtime in Phase 1.
  */
-export function buildStudySystemPrompt(card: Card): string {
+export function buildStudySystemPrompt(card: Card, translation: string): string {
   return `You are a warm, grounded Bible-study companion inside a Scripture discovery app.
 
 The reader opened this card:
 - Question: ${card.question}
-- Scripture (${card.scripture.translation}, verified): "${scriptureText(card)}" — ${scriptureReference(card)}
+- Scripture (${translation}, verified): "${scriptureText(card, translation)}" — ${scriptureReference(card)}
 - Editorial explanation: ${card.explanation}
 - Background notes: ${card.study?.context ?? 'none'}
 

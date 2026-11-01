@@ -8,9 +8,11 @@
     "scheme": "bible-discovery",
     "userInterfaceStyle": "dark",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.dbvantage.biblesays"
     },
     "android": {
+      "package": "com.dbvantage.biblesays",
       "adaptiveIcon": {
         "backgroundColor": "#0B120F",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -41,6 +43,17 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-    "backgroundColor": "#0B120F"
+    "backgroundColor": "#0B120F",
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "e3ea83b7-35c2-4485-a2a5-e4c06da5fc32"
+      }
+    },
+    "owner": "brennenhodge"
   }
 }

@@ -5,12 +5,14 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { hashtag, scriptureReference } from '@/content/repository';
 import type { Card } from '@/content/types';
+import { useTranslation } from '@/state/prefs';
 import { colors, fonts, radius, space } from '@/theme/tokens';
 
 import { CardImage } from './CardImage';
 
 /** Compact list row for a question card: thumbnail, hashtag, question, reference. */
 export function QuestionRow({ card, trailing }: { card: Card; trailing?: ReactNode }) {
+  const translation = useTranslation();
   const router = useRouter();
   return (
     <Pressable
@@ -28,7 +30,7 @@ export function QuestionRow({ card, trailing }: { card: Card; trailing?: ReactNo
           {card.question}
         </Text>
         <Text style={styles.ref}>
-          {scriptureReference(card)} · {card.scripture.translation}
+          {scriptureReference(card)} · {translation}
         </Text>
       </View>
       {trailing ?? <Ionicons name="chevron-forward" size={18} color={colors.creamFaint} />}

@@ -216,7 +216,9 @@ function TopicTile({ topic, onPress }: { topic: Topic; onPress: () => void }) {
       accessibilityRole="link"
       accessibilityLabel={`${hashtag(topic.id)}, ${count} questions`}
       style={({ pressed }) => [styles.tile, pressed && { transform: [{ scale: 0.98 }] }]}>
-      {cover ? <CardImage imageKey={cover.key} alt="" width={200} height={130} style={StyleSheet.absoluteFill} /> : null}
+      {cover ? (
+        <CardImage imageKey={cover.key} alt="" width={400} height={130} style={[StyleSheet.absoluteFill, styles.fill]} />
+      ) : null}
       <LinearGradient colors={['rgba(11,18,15,0.1)', 'rgba(11,18,15,0.88)']} style={StyleSheet.absoluteFill} />
       <View style={styles.tileText}>
         <Text style={styles.tileTag} numberOfLines={1}>
@@ -305,14 +307,16 @@ const styles = StyleSheet.create({
   },
   subChipText: { color: colors.creamMuted, fontFamily: fonts.bodyMedium, fontSize: 13 },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
+  // Two tiles per row; a category's odd tile stretches to the full row, so its image must fill it too.
   tile: {
-    width: '48.5%',
+    flexBasis: '40%',
     height: 112,
     borderRadius: radius.md,
     overflow: 'hidden',
     backgroundColor: colors.forest,
     flexGrow: 1,
   },
+  fill: { width: '100%', height: '100%' },
   tileText: { position: 'absolute', left: 14, right: 14, bottom: 12 },
   tileTag: { color: colors.cream, fontFamily: fonts.question, fontSize: 18 },
   tileCount: { color: colors.creamFaint, fontFamily: fonts.body, fontSize: 12, marginTop: 2 },

@@ -113,8 +113,8 @@ function RightPanel({ height }: { height: number }) {
       <Text style={[styles.panelTitle, { marginTop: space.xxl }]}>About this preview</Text>
       <Text style={styles.body}>
         Every card pairs a real-life question with a verified Bible passage and one short, honest
-        explanation. Scripture is quoted from the {appConfig.translations[0].name} (public domain) while
-        licensing for the NLT is arranged.
+        explanation. Scripture is quoted from the New King James Version by default — readers can switch
+        to the KJV or WEB in Profile.
       </Text>
       <Pressable onPress={() => router.push('/studio')} accessibilityRole="link" style={styles.linkRow}>
         <Ionicons name="construct-outline" size={15} color={colors.sage} />

@@ -2,31 +2,61 @@
   {
     "id": "emotional-life",
     "name": "Emotional Life",
-    "description": "Anxiety, fear, peace, loneliness, and the feelings we carry.",
+    "description": "Anxiety, fear, anger, peace, and the feelings we carry.",
     "order": 1
+  },
+  {
+    "id": "identity",
+    "name": "Identity & Belonging",
+    "description": "Self-worth, comparison, loneliness, and where you belong.",
+    "order": 2
   },
   {
     "id": "relationships",
     "name": "Relationships",
     "description": "Dating, friendship, forgiveness, heartbreak, and love.",
-    "order": 2
+    "order": 3
+  },
+  {
+    "id": "love-sexuality",
+    "name": "Love & Sexuality",
+    "description": "Sex, desire, purity, and God's design for love.",
+    "order": 4
+  },
+  {
+    "id": "family",
+    "name": "Family & Home",
+    "description": "Parents, siblings, and faith at home.",
+    "order": 5
   },
   {
     "id": "modern-choices",
     "name": "Modern Choices",
     "description": "Habits, substances, screens, and the choices of everyday life.",
-    "order": 3
+    "order": 6
   },
   {
     "id": "daily-living",
-    "name": "Daily Living",
-    "description": "Money, work, purpose, and decisions.",
-    "order": 4
+    "name": "Work & Purpose",
+    "description": "Money, work, rest, purpose, and decisions.",
+    "order": 7
+  },
+  {
+    "id": "hard-seasons",
+    "name": "Hard Seasons",
+    "description": "Grief, loss, and walking through pain.",
+    "order": 8
   },
   {
     "id": "faith",
     "name": "Faith",
-    "description": "Jesus, prayer, doubt, suffering, and the big questions.",
-    "order": 5
+    "description": "Jesus, prayer, doubt, heaven, and the big questions.",
+    "order": 9
+  },
+  {
+    "id": "growing-faith",
+    "name": "Growing in Faith",
+    "description": "Reading the Bible, church, and the practices that shape a life.",
+    "order": 10
   }
 ]

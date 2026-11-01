@@ -1,4 +1,4 @@
-import { scriptureReference, scriptureText } from '@/content/repository';
+import { passageText, scriptureReference, scriptureText } from '@/content/repository';
 import type { Card } from '@/content/types';
 
 import { abuseMessage, careNote, crisisMessage, detectRisk } from './safety';
@@ -18,12 +18,12 @@ export const prototypeStudyProvider: StudyProvider = {
     if (risk === 'abuse') return [{ type: 'care', text: abuseMessage() }];
 
     const study = card.study;
-    const translation = card.scripture.translation;
+    const translation = input.translation;
     const main: StudyBlock = {
       type: 'scripture',
       reference: scriptureReference(card),
       translation,
-      text: scriptureText(card),
+      text: scriptureText(card, translation),
     };
 
     switch (input.promptId) {
@@ -43,13 +43,14 @@ export const prototypeStudyProvider: StudyProvider = {
       case 'verses':
         return [
           ...(study?.relatedPassages ?? [])
-            .filter((p) => p.text)
+            .map((p) => ({ p, verified: passageText(p.reference, translation) }))
+            .filter(({ verified }) => verified.text)
             .map(
-              (p): StudyBlock => ({
+              ({ p, verified }): StudyBlock => ({
                 type: 'scripture',
                 reference: p.reference.replace('-', '–'),
-                translation,
-                text: p.text!,
+                translation: verified.translation,
+                text: verified.text,
                 note: p.note,
               }),
             ),

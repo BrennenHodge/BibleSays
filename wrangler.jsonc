@@ -1,0 +1,13 @@
+{
+  // Cloudflare Workers static assets: serves the Expo web export in ./dist.
+  // Deploy with: npm run deploy
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "biblesays",
+  "account_id": "d06c70a0b6279642a6243926161f574b",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    // Expo Router web output is a single-page app: unknown paths (deep links) serve index.html.
+    "not_found_handling": "single-page-application"
+  }
+}

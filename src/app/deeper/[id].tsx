@@ -22,7 +22,7 @@ import { getCard, hashtag, scriptureReference, scriptureText } from '@/content/r
 import { prototypeStudyProvider } from '@/services/study/prototype';
 import { abuseMessage, careNote, crisisMessage, detectRisk } from '@/services/study/safety';
 import { STUDY_PROMPTS, type StudyBlock, type StudyMessage, type StudyPromptId } from '@/services/study/types';
-import { usePrefs } from '@/state/prefs';
+import { usePrefs, useTranslation } from '@/state/prefs';
 import { readJSON, writeJSON } from '@/state/storage';
 import { colors, fonts, radius, space } from '@/theme/tokens';
 
@@ -35,6 +35,7 @@ export default function GoDeeperScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { prefs, update } = usePrefs();
+  const translation = useTranslation();
   const card = getCard(id);
   const scrollRef = useRef<ComponentRef<typeof ScrollView>>(null);
   const [messages, setMessages] = useState<StudyMessage[]>([]);
@@ -85,7 +86,7 @@ export default function GoDeeperScreen() {
 
     const blocks: StudyBlock[] = risk
       ? [{ type: 'care', text: risk === 'crisis' ? crisisMessage() : abuseMessage() }]
-      : await prototypeStudyProvider.respond(card, { promptId, text: trimmed }, withUser);
+      : await prototypeStudyProvider.respond(card, { promptId, text: trimmed, translation }, withUser);
 
     const next = [...withUser, { id: uid(), role: 'assistant' as const, blocks }];
     setMessages(next);
@@ -99,7 +100,7 @@ export default function GoDeeperScreen() {
   const lastWasCare = last?.role === 'assistant' && last.blocks?.every((b) => b.type === 'care');
 
   const fullPassageUrl = card.scripture.fullPassage
-    ? `https://www.biblegateway.com/passage/?search=${encodeURIComponent(card.scripture.fullPassage)}&version=${card.scripture.translation}`
+    ? `https://www.biblegateway.com/passage/?search=${encodeURIComponent(card.scripture.fullPassage)}&version=${translation}`
     : null;
 
   return (
@@ -127,10 +128,10 @@ export default function GoDeeperScreen() {
 
         <View style={styles.pad}>
           <Text selectable style={styles.verse}>
-            {scriptureText(card)}
+            {scriptureText(card, translation)}
           </Text>
           <Text style={styles.reference}>
-            {scriptureReference(card).toUpperCase()} · {card.scripture.translation}
+            {scriptureReference(card).toUpperCase()} · {translation}
           </Text>
           {fullPassageUrl ? (
             <Pressable onPress={() => Linking.openURL(fullPassageUrl)} accessibilityRole="link" style={styles.linkRow}>

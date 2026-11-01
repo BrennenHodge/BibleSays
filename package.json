@@ -39,7 +39,8 @@
     "@types/react": "~19.3.0",
     "eslint": "^9.0.0",
     "eslint-config-expo": "~58.0.4",
-    "typescript": "~6.0.3"
+    "typescript": "~6.0.3",
+    "wrangler": "^4.156.0"
   },
   "scripts": {
     "start": "expo start",
@@ -53,7 +54,11 @@
     "content:check": "node scripts/content-sync.mjs --check",
     "scripture:fetch": "node scripts/fetch-scripture.mjs",
     "images:find": "node scripts/find-images.mjs",
-    "images:sync": "node scripts/sync-images.mjs"
+    "images:sync": "node scripts/sync-images.mjs",
+    "scripture:show": "node scripts/show-verse.mjs",
+    "content:import": "node scripts/import-cards.mjs",
+    "build:web": "expo export --platform web",
+    "deploy": "npm run build:web && wrangler deploy"
   },
   "private": true
 }

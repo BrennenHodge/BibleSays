@@ -5,8 +5,8 @@ import { Linking, Pressable, ScrollView, StyleSheet, Switch, Text, View } from '
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useToast } from '@/components/Toast';
-import { appConfig } from '@/config/app';
-import { getAllImages, getPrimaryTopics } from '@/content/repository';
+import { appConfig, availableTranslations } from '@/config/app';
+import { getAllImages, getPrimaryTopics, resolveTranslation } from '@/content/repository';
 import { usePrefs, type TextSize } from '@/state/prefs';
 import { useSaved } from '@/state/saved';
 import { writeJSON } from '@/state/storage';
@@ -81,12 +81,12 @@ export default function ProfileScreen() {
 
       <Section title="Bible translation">
         {appConfig.translations.map((t) => {
-          const on = prefs.translation === t.code;
+          const on = resolveTranslation(prefs.translation) === t.code;
           return (
             <Pressable
               key={t.code}
               disabled={!t.available}
-              onPress={() => update({ translation: t.code })}
+              onPress={() => update({ translation: t.code, translationChosen: true })}
               accessibilityRole="radio"
               accessibilityState={{ checked: on, disabled: !t.available }}
               style={[styles.option, !t.available && { opacity: 0.55 }]}>
@@ -153,7 +153,7 @@ export default function ProfileScreen() {
 
       <Section title="About">
         <Text style={styles.optionNote}>
-          Scripture quotations are from the World English Bible (public domain), verified against bible-api.com.
+          {availableTranslations.map((t) => t.attribution).join(' ')} Verse text is verified against bolls.life (NKJV) and bible-api.com (KJV, WEB).
           Photography from Unsplash, used under the Unsplash License.
         </Text>
         <Row icon="construct-outline" label="Content studio" onPress={() => router.push('/studio')} />

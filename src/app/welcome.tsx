@@ -10,7 +10,7 @@ import { getPrimaryTopics } from '@/content/repository';
 import { usePrefs } from '@/state/prefs';
 import { colors, fonts, radius, space } from '@/theme/tokens';
 
-const INTEREST_IDS = ['anxiety', 'relationships', 'habits', 'purpose', 'money', 'faith-questions', 'jesus'];
+const INTEREST_IDS = ['anxiety', 'identity', 'relationships', 'loneliness', 'purpose', 'work', 'money', 'grief', 'faith-questions', 'jesus'];
 
 export default function WelcomeScreen() {
   const router = useRouter();

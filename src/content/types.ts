@@ -12,7 +12,7 @@ export type InterpretationClass =
   | 'sensitive-personal';
 
 /** Which supportive care note (if any) to show alongside sensitive content. */
-export type CareKind = 'mental-health' | 'abuse' | 'health';
+export type CareKind = 'mental-health' | 'abuse' | 'health' | 'grief';
 
 export interface Category {
   id: string;
@@ -40,24 +40,25 @@ export interface Topic {
   coverImageKey?: string;
 }
 
+/** Cards store references only; text comes from the verified per-translation store. */
 export interface ScripturePassage {
   reference: string;
-  text: string;
-}
-
-export interface ScriptureVerification {
-  status: 'verified' | 'unverified' | 'mismatch';
-  source: string;
-  license: string;
-  verifiedAt: string;
 }
 
 export interface CardScripture {
-  translation: string;
   passages: ScripturePassage[];
   /** Reference for "read the full passage". */
   fullPassage?: string;
-  verification?: ScriptureVerification;
+}
+
+/** One verified passage in one translation (content/scripture/<code>.json). */
+export interface VerifiedPassage {
+  reference: string;
+  text: string;
+  verses: { verse: string; text: string }[];
+  license: string;
+  source: string;
+  fetchedAt: string;
 }
 
 export interface ImageAsset {
@@ -85,8 +86,6 @@ export interface CardImageRef {
 export interface RelatedPassage {
   reference: string;
   note: string;
-  /** Filled from verified Scripture by the content sync step. */
-  text?: string;
 }
 
 export interface CardStudy {
@@ -94,6 +93,8 @@ export interface CardStudy {
   relatedPassages: RelatedPassage[];
   reflection: string;
   prayer: string;
+  /** Other references quoted in `context`, so quotes can be verified in every translation. */
+  citations?: string[];
 }
 
 export interface EditorialMeta {

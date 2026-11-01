@@ -45,3 +45,11 @@ example
 # local secrets
 .env
 .env.local
+
+# Cloudflare
+.wrangler/
+
+# Local APK/AAB downloads from EAS
+builds/
+*.apk
+*.aab

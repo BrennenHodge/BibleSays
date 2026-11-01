@@ -23,10 +23,12 @@ export function abuseMessage(): string {
 export function careNote(kind: CareKind): string {
   switch (kind) {
     case 'mental-health':
-      return 'If anxiety is affecting your sleep, work, or relationships, talking with a doctor or licensed counselor is a wise and faithful step. Prayer and professional care work together.';
+      return 'If this is weighing on your sleep, work, or relationships, talking with a doctor or licensed counselor is a wise and faithful step. Prayer and professional care work together.';
     case 'abuse':
-      return 'Forgiveness never requires staying in an unsafe situation. If someone is hurting you, please reach out to a trusted person or a local support service.';
+      return 'God never asks you to stay somewhere unsafe, and forgiveness doesn’t require it either. If someone is hurting you, please reach out to a trusted person or a local support service.';
     case 'health':
       return 'If this keeps happening, please talk with a doctor. Caring for your body is part of caring for your whole self.';
+    case 'grief':
+      return 'Grief has no timetable. If it feels too heavy to carry, a grief counselor, pastor, or support group can walk with you — reaching out is a sign of love, not weak faith.';
   }
 }

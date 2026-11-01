@@ -33,6 +33,8 @@ export interface StudyMessage {
 export interface StudyInput {
   promptId?: StudyPromptId;
   text: string;
+  /** Reader's translation; Scripture blocks are quoted from its verified text. */
+  translation: string;
 }
 
 export interface StudyProvider {

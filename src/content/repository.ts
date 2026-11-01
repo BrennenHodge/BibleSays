@@ -5,9 +5,21 @@
 import cardsJson from '../../content/cards.json';
 import categoriesJson from '../../content/categories.json';
 import imagesJson from '../../content/images.json';
+import kjvJson from '../../content/scripture/kjv.json';
+import nkjvJson from '../../content/scripture/nkjv.json';
+import webJson from '../../content/scripture/web.json';
 import topicsJson from '../../content/topics.json';
 
-import type { Card, Category, ImageAsset, Topic } from './types';
+import { appConfig, availableTranslations } from '@/config/app';
+
+import type { Card, Category, ImageAsset, Topic, VerifiedPassage } from './types';
+
+/** Verified Scripture, one store per translation, keyed by reference. */
+const scriptureStores: Record<string, Record<string, VerifiedPassage>> = {
+  NKJV: nkjvJson as Record<string, VerifiedPassage>,
+  KJV: kjvJson as Record<string, VerifiedPassage>,
+  WEB: webJson as Record<string, VerifiedPassage>,
+};
 
 const allCards = cardsJson as Card[];
 const categories = (categoriesJson as Category[]).slice().sort((a, b) => a.order - b.order);
@@ -140,8 +152,27 @@ export function imageUrl(asset: ImageAsset, width: number, height?: number, qual
   return `${asset.url}&${params.join('&')}`;
 }
 
-export function scriptureText(card: Card): string {
-  return card.scripture.passages.map((p) => p.text).join(' ');
+/** A selectable translation code, falling back to the default if unknown/unavailable. */
+export function resolveTranslation(code?: string): string {
+  return availableTranslations.some((t) => t.code === code) ? code! : appConfig.defaultTranslation;
+}
+
+/** Verified text for one reference. Falls back to the default translation, never to generated text. */
+export function passageText(reference: string, translation?: string): { text: string; translation: string } {
+  const code = resolveTranslation(translation);
+  const hit = scriptureStores[code]?.[reference];
+  if (hit) return { text: hit.text, translation: code };
+  const fallback = scriptureStores[appConfig.defaultTranslation]?.[reference];
+  return { text: fallback?.text ?? '', translation: appConfig.defaultTranslation };
+}
+
+export function scriptureText(card: Card, translation?: string): string {
+  return card.scripture.passages.map((p) => passageText(p.reference, translation).text).join(' ');
+}
+
+/** True when every passage on the card has verified text in the given translation. */
+export function isVerified(card: Card, translation: string): boolean {
+  return card.scripture.passages.every((p) => !!scriptureStores[translation]?.[p.reference]);
 }
 
 export function scriptureReference(card: Card): string {

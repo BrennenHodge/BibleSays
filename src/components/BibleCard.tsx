@@ -14,7 +14,7 @@ import {
 
 import { hashtag, scriptureReference, scriptureText } from '@/content/repository';
 import type { Card } from '@/content/types';
-import { useTextScale } from '@/state/prefs';
+import { useTextScale, useTranslation } from '@/state/prefs';
 import { colors, fonts, radius, space } from '@/theme/tokens';
 
 import { CardImage } from './CardImage';
@@ -52,6 +52,7 @@ function BibleCardBase({
   onOpenTopic,
 }: BibleCardProps) {
   const s = useTextScale();
+  const translation = useTranslation();
   const compactHeight = height < 700;
   // Clamping is remembered per size/text-scale, so a resize re-measures from scratch.
   const sizeKey = `${width}x${height}@${s}`;
@@ -153,14 +154,14 @@ function BibleCardBase({
           selectable
           style={[styles.verse, { fontSize: verseSize, lineHeight: verseSize * 1.34 }]}
           numberOfLines={clamped ? 4 : undefined}>
-          {scriptureText(card)}
+          {scriptureText(card, translation)}
         </Text>
         <Text
           style={[styles.reference, { fontSize: 11.5 * s }]}
-          accessibilityLabel={`${reference}, ${card.scripture.translation}`}>
+          accessibilityLabel={`${reference}, ${translation}`}>
           {reference.toUpperCase()}
           <Text style={styles.referenceDot}>{'  ·  '}</Text>
-          {card.scripture.translation}
+          {translation}
         </Text>
 
         <Text
@@ -224,12 +225,12 @@ function BibleCardBase({
             </Text>
             <View style={[styles.divider, { backgroundColor: 'rgba(227,207,164,0.5)' }]} />
             <Text selectable style={[styles.verse, { fontSize: verseSize, lineHeight: verseSize * 1.34 }]}>
-              {scriptureText(card)}
+              {scriptureText(card, translation)}
             </Text>
             <Text style={[styles.reference, { fontSize: 11.5 * s }]}>
               {reference.toUpperCase()}
               {'  ·  '}
-              {card.scripture.translation}
+              {translation}
             </Text>
             <Text selectable style={[styles.explanation, { fontSize: bodySize, lineHeight: bodySize * 1.5 }]}>
               {card.explanation}

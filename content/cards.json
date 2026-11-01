@@ -14,22 +14,14 @@
     ],
     "question": "Does having anxiety mean my faith is weak?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Psalm 56:3",
-          "text": "When I am afraid, I will put my trust in you."
+          "reference": "Psalm 56:3"
         }
       ],
-      "fullPassage": "Psalm 56",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Psalm 56"
     },
-    "explanation": "Even David, a man known for his faith, experienced fear. Notice he says “when I am afraid,” not “if.” Trusting God doesn't mean you never feel anxious. It means turning to Him in the middle of your fear. Your struggles don't disqualify your faith.",
+    "explanation": "Even David, a man known for his faith, experienced fear. Notice he doesn't say if fear comes, but when. Trusting God doesn't mean you never feel anxious. It means turning to Him in the middle of your fear. Your struggles don't disqualify your faith.",
     "keywords": [
       "anxious",
       "panic",
@@ -54,13 +46,11 @@
       "relatedPassages": [
         {
           "reference": "Psalm 42:11",
-          "note": "The psalmist speaks honestly to his own troubled soul and redirects it toward hope.",
-          "text": "Why are you in despair, my soul? Why are you disturbed within me? Hope in God! For I shall still praise him, the saving help of my countenance, and my God."
+          "note": "The psalmist speaks honestly to his own troubled soul and redirects it toward hope."
         },
         {
           "reference": "Mark 9:24",
-          "note": "A father's prayer that mixes belief and unbelief — and Jesus responds with help, not rejection.",
-          "text": "Immediately the father of the child cried out with tears, “I believe. Help my unbelief!”"
+          "note": "A father's prayer that mixes belief and unbelief — and Jesus responds with help, not rejection."
         }
       ],
       "reflection": "What would it look like to bring your fear to God today, instead of hiding it from Him?",
@@ -91,20 +81,12 @@
     ],
     "question": "What do I do when I can't stop worrying?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Philippians 4:6-7",
-          "text": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus."
+          "reference": "Philippians 4:6-7"
         }
       ],
-      "fullPassage": "Philippians 4",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Philippians 4"
     },
     "explanation": "Paul wrote this from prison, so he wasn't speaking from an easy life. He doesn't simply say “stop worrying.” He invites you to turn each worry into a specific prayer, with thanks for what God has already done. The promise isn't that every problem disappears, but that God's peace will guard your heart and mind.",
     "keywords": [
@@ -130,17 +112,18 @@
       "relatedPassages": [
         {
           "reference": "Matthew 6:27",
-          "note": "Jesus points out that worry can't add a single moment to your life.",
-          "text": "“Which of you, by being anxious, can add one moment to his lifespan?"
+          "note": "Jesus points out that worry can't add a single moment to your life."
         },
         {
           "reference": "Isaiah 26:3",
-          "note": "A promise of peace for the one whose mind is steadied on God.",
-          "text": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you."
+          "note": "A promise of peace for the one whose mind is steadied on God."
         }
       ],
       "reflection": "Which worry could you turn into a specific, honest prayer right now — with one thing you're thankful for?",
-      "prayer": "Father, here is what I'm worried about. I'm handing it to You, and I thank You for how You've cared for me before. Guard my heart and mind with Your peace."
+      "prayer": "Father, here is what I'm worried about. I'm handing it to You, and I thank You for how You've cared for me before. Guard my heart and mind with Your peace.",
+      "citations": [
+        "Philippians 4:5"
+      ]
     },
     "editorial": {
       "version": 1,
@@ -166,20 +149,12 @@
     ],
     "question": "Why can't I stop dreading what might happen?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Matthew 6:34",
-          "text": "Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient."
+          "reference": "Matthew 6:34"
         }
       ],
-      "fullPassage": "Matthew 6:25-34",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Matthew 6:25-34"
     },
     "explanation": "Jesus isn't dismissing planning here; He's talking about borrowing tomorrow's trouble today. Worry tries to live in a future you can't control yet. Jesus invites you back into this day, where God's care is already at work, and where you're given what you need for what's actually in front of you.",
     "keywords": [
@@ -206,13 +181,11 @@
       "relatedPassages": [
         {
           "reference": "Lamentations 3:22-23",
-          "note": "God's mercies are new every morning — enough for each day as it comes.",
-          "text": "It is because of Yahweh’s loving kindnesses that we are not consumed, because his compassion doesn’t fail. They are new every morning. Great is your faithfulness."
+          "note": "God's mercies are new every morning — enough for each day as it comes."
         },
         {
           "reference": "Isaiah 41:10",
-          "note": "God's promise to be present and to strengthen His people.",
-          "text": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness."
+          "note": "God's promise to be present and to strengthen His people."
         }
       ],
       "reflection": "What is one “tomorrow” worry you can set down, so you can be present to today?",
@@ -242,20 +215,12 @@
     ],
     "question": "How can I find peace when my mind won't let me sleep?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Psalm 4:8",
-          "text": "In peace I will both lay myself down and sleep, for you, Yahweh alone, make me live in safety."
+          "reference": "Psalm 4:8"
         }
       ],
-      "fullPassage": "Psalm 4",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Psalm 4"
     },
     "explanation": "This psalm begins with David crying out for relief, yet it ends with him lying down in peace. Rest became an act of trust: he could close his eyes because God doesn't. If sleeplessness keeps going, it's wise to talk with a doctor too. Caring for your body and trusting God belong together.",
     "keywords": [
@@ -282,13 +247,11 @@
       "relatedPassages": [
         {
           "reference": "Psalm 121:3-4",
-          "note": "The God who keeps you never slumbers or sleeps.",
-          "text": "He will not allow your foot to be moved. He who keeps you will not slumber. Behold, he who keeps Israel will neither slumber nor sleep."
+          "note": "The God who keeps you never slumbers or sleeps."
         },
         {
           "reference": "Psalm 127:2",
-          "note": "Rest is described as a gift God gives to those He loves.",
-          "text": "It is vain for you to rise up early, to stay up late, eating the bread of toil; for he gives sleep to his loved ones."
+          "note": "Rest is described as a gift God gives to those He loves."
         }
       ],
       "reflection": "What thought tends to keep you awake, and how could you hand it to God before you lie down tonight?",
@@ -318,20 +281,12 @@
     ],
     "question": "Is it okay to bring God my overthinking?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "1 Peter 5:7",
-          "text": "casting all your worries on him, because he cares for you."
+          "reference": "1 Peter 5:7"
         }
       ],
-      "fullPassage": "1 Peter 5:6-11",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "1 Peter 5:6-11"
     },
     "explanation": "Peter's word picture is throwing something heavy onto someone stronger. “All” includes the loops you replay at 2 a.m. and the worries that feel too small to mention. The reason given isn't that you've earned God's attention. It's simply that He cares for you.",
     "keywords": [
@@ -357,13 +312,11 @@
       "relatedPassages": [
         {
           "reference": "Psalm 139:23",
-          "note": "An invitation for God to search and know even our anxious thoughts.",
-          "text": "Search me, God, and know my heart. Try me, and know my thoughts."
+          "note": "An invitation for God to search and know even our anxious thoughts."
         },
         {
           "reference": "2 Corinthians 10:5",
-          "note": "Paul speaks of bringing every thought into obedience to Christ.",
-          "text": "throwing down imaginations and every high thing that is exalted against the knowledge of God, and bringing every thought into captivity to the obedience of Christ;"
+          "note": "Paul speaks of bringing every thought into obedience to Christ."
         }
       ],
       "reflection": "If you wrote down the thoughts that loop most often, which one would you hand to God first?",
@@ -393,20 +346,12 @@
     ],
     "question": "How do I stop panicking about money?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Matthew 6:26",
-          "text": "See the birds of the sky, that they don’t sow, neither do they reap, nor gather into barns. Your heavenly Father feeds them. Aren’t you of much more value than they?"
+          "reference": "Matthew 6:26"
         }
       ],
-      "fullPassage": "Matthew 6:25-34",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Matthew 6:25-34"
     },
     "explanation": "Jesus points to the birds — not because work doesn't matter, but because their Father feeds them, and you matter far more. This doesn't promise easy finances. It relocates your security: your provider is God, not your bank balance. Make wise plans, ask for help when you need it, and bring every bill to Him in prayer.",
     "keywords": [
@@ -433,13 +378,11 @@
       "relatedPassages": [
         {
           "reference": "Philippians 4:19",
-          "note": "Paul's confidence that God will supply what His people need.",
-          "text": "My God will supply every need of yours according to his riches in glory in Christ Jesus."
+          "note": "Paul's confidence that God will supply what His people need."
         },
         {
           "reference": "Hebrews 13:5",
-          "note": "Freedom from the love of money rests on God's promise never to leave us.",
-          "text": "Be free from the love of money, content with such things as you have, for he has said, “I will in no way leave you, neither will I in any way forsake you.”"
+          "note": "Freedom from the love of money rests on God's promise never to leave us."
         }
       ],
       "reflection": "What is one wise, practical step you could take with your finances this week — and one worry you could pray about instead of carrying?",
@@ -469,20 +412,12 @@
     ],
     "question": "What if I make the wrong decision?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "James 1:5",
-          "text": "But if any of you lacks wisdom, let him ask of God, who gives to all liberally and without reproach; and it will be given to him."
+          "reference": "James 1:5"
         }
       ],
-      "fullPassage": "James 1:2-8",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "James 1:2-8"
     },
     "explanation": "James says God gives wisdom generously and “without reproach” — He doesn't scold you for asking. Most decisions aren't a test with one hidden right answer. Ask God for wisdom, seek wise counsel, weigh what Scripture says, then take a step. God's care for you isn't undone by an imperfect choice.",
     "keywords": [
@@ -509,13 +444,11 @@
       "relatedPassages": [
         {
           "reference": "Proverbs 16:9",
-          "note": "We make plans, but the Lord directs our steps.",
-          "text": "A man’s heart plans his course, but Yahweh directs his steps."
+          "note": "We make plans, but the Lord directs our steps."
         },
         {
           "reference": "Psalm 32:8",
-          "note": "God's promise to instruct and guide.",
-          "text": "I will instruct you and teach you in the way which you shall go. I will counsel you with my eye on you."
+          "note": "God's promise to instruct and guide."
         }
       ],
       "reflection": "Who is one wise person you could talk to about the decision in front of you?",
@@ -544,20 +477,12 @@
     ],
     "question": "How do I know what God wants me to do with my life?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Proverbs 3:5-6",
-          "text": "Trust in Yahweh with all your heart, and don’t lean on your own understanding. In all your ways acknowledge him, and he will make your paths straight."
+          "reference": "Proverbs 3:5-6"
         }
       ],
-      "fullPassage": "Proverbs 3:1-12",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Proverbs 3:1-12"
     },
     "explanation": "God doesn't always give us a detailed roadmap. This passage encourages us to trust Him rather than relying entirely on our own understanding. Sometimes moving forward faithfully means taking the next wise step, even when we can't see the entire path.",
     "keywords": [
@@ -583,13 +508,11 @@
       "relatedPassages": [
         {
           "reference": "Micah 6:8",
-          "note": "A clear summary of what God asks of everyone: justice, mercy, humility.",
-          "text": "He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?"
+          "note": "A clear summary of what God asks of everyone: justice, mercy, humility."
         },
         {
           "reference": "Ephesians 2:10",
-          "note": "We are God's workmanship, created for good works.",
-          "text": "For we are his workmanship, created in Christ Jesus for good works, which God prepared before that we would walk in them."
+          "note": "We are God's workmanship, created for good works."
         }
       ],
       "reflection": "What is the next faithful step you already know you could take, even without the whole map?",
@@ -618,20 +541,12 @@
     ],
     "question": "How do I forgive someone who hurt me?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Ephesians 4:32",
-          "text": "And be kind to one another, tender hearted, forgiving each other, just as God also in Christ forgave you."
+          "reference": "Ephesians 4:32"
         }
       ],
-      "fullPassage": "Ephesians 4:25-32",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Ephesians 4:25-32"
     },
     "explanation": "Forgiveness doesn't mean pretending the pain didn't happen. It means learning to release bitterness while remembering the grace God has shown us. Forgiveness can take time, and it doesn't automatically require restoring trust or returning to an unsafe relationship.",
     "keywords": [
@@ -659,13 +574,11 @@
       "relatedPassages": [
         {
           "reference": "Colossians 3:13",
-          "note": "Bearing with one another and forgiving as the Lord forgave you.",
-          "text": "bearing with one another, and forgiving each other, if any man has a complaint against any; even as Christ forgave you, so you also do."
+          "note": "Bearing with one another and forgiving as the Lord forgave you."
         },
         {
           "reference": "Romans 12:18",
-          "note": "Live at peace “as much as it is up to you” — acknowledging that peace isn't always possible.",
-          "text": "If it is possible, as much as it is up to you, be at peace with all men."
+          "note": "Live at peace with everyone as far as it depends on you — acknowledging that peace isn't always possible."
         }
       ],
       "reflection": "What would releasing bitterness look like for you, separate from deciding whether to trust that person again?",
@@ -694,22 +607,14 @@
     ],
     "question": "Is smoking weed a sin?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "1 Corinthians 6:12",
-          "text": "“All things are lawful for me,” but not all things are expedient. “All things are lawful for me,” but I will not be brought under the power of anything."
+          "reference": "1 Corinthians 6:12"
         }
       ],
-      "fullPassage": "1 Corinthians 6:12-20",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "1 Corinthians 6:12-20"
     },
-    "explanation": "The Bible never mentions marijuana, so we shouldn't pretend it does. But it offers clear principles: Paul refuses to be “brought under the power of anything,” and Scripture calls believers to be clear-minded and to respect the law. Christians differ on questions like medical use, so ask honestly: does this cloud my mind, master me, or break the law where I live?",
+    "explanation": "The Bible never mentions marijuana, so we shouldn't pretend it does. But it offers clear principles: Paul refuses to be “brought under the power” of anything, and Scripture calls believers to be clear-minded and to respect the law. Christians differ on questions like medical use, so ask honestly: does this cloud my mind, master me, or break the law where I live?",
     "keywords": [
       "weed",
       "marijuana",
@@ -738,13 +643,11 @@
       "relatedPassages": [
         {
           "reference": "1 Peter 5:8",
-          "note": "A call to be sober-minded and watchful.",
-          "text": "Be sober and self-controlled. Be watchful. Your adversary, the devil, walks around like a roaring lion, seeking whom he may devour."
+          "note": "A call to be sober-minded and watchful."
         },
         {
           "reference": "Galatians 5:22-23",
-          "note": "Self-control is listed as fruit the Spirit produces.",
-          "text": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control. Against such things there is no law."
+          "note": "Self-control is listed as fruit the Spirit produces."
         }
       ],
       "reflection": "Is there anything in your life right now that has more power over you than you'd like to admit?",
@@ -773,20 +676,12 @@
     ],
     "question": "Why do I keep doing the thing I hate?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Romans 7:15",
-          "text": "For I don’t know what I am doing. For I don’t practice what I desire to do; but what I hate, that I do."
+          "reference": "Romans 7:15"
         }
       ],
-      "fullPassage": "Romans 7:14-25",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Romans 7:14-25"
     },
     "explanation": "Paul describes this exhausting tug-of-war in his own voice. Wanting to change and still failing doesn't make you a fraud; it makes you honest about how deep the struggle goes. Paul's answer comes a few verses later: rescue through Jesus Christ. Real change starts with grace, not shame, and grows with honest community and practical help.",
     "keywords": [
@@ -813,13 +708,11 @@
       "relatedPassages": [
         {
           "reference": "Romans 7:24-25",
-          "note": "Paul's cry for rescue, and his answer: Jesus Christ.",
-          "text": "What a wretched man I am! Who will deliver me out of the body of this death? I thank God through Jesus Christ, our Lord! So then with the mind, I myself serve God’s law, but with the flesh, the sin’s law."
+          "note": "Paul's cry for rescue, and his answer: Jesus Christ."
         },
         {
           "reference": "1 Corinthians 10:13",
-          "note": "God's faithfulness in temptation, and a way of escape.",
-          "text": "No temptation has taken you except what is common to man. God is faithful, who will not allow you to be tempted above what you are able, but will with the temptation also make the way of escape, that you may be able to endure it."
+          "note": "God's faithfulness in temptation, and a way of escape."
         }
       ],
       "reflection": "Who is one trusted person you could be honest with about the struggle you keep facing?",
@@ -848,22 +741,14 @@
     ],
     "question": "Is it wrong to want to be rich?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "1 Timothy 6:9",
-          "text": "But those who are determined to be rich fall into a temptation and a snare and many foolish and harmful lusts, such as drown men in ruin and destruction."
+          "reference": "1 Timothy 6:9"
         }
       ],
-      "fullPassage": "1 Timothy 6:6-19",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "1 Timothy 6:6-19"
     },
-    "explanation": "Paul's warning isn't against money itself, but against being “determined to be rich” — when wealth becomes the goal that drives everything. A few verses later he tells wealthy believers not to trust in riches, but to be generous and rich in good works. Work hard, plan wisely, and hold money with open hands.",
+    "explanation": "Paul's warning isn't against money itself, but against setting your heart on getting rich — when wealth becomes the goal that drives everything. A few verses later he tells wealthy believers not to trust in riches, but to be generous and rich in good works. Work hard, plan wisely, and hold money with open hands.",
     "keywords": [
       "rich",
       "wealth",
@@ -888,13 +773,11 @@
       "relatedPassages": [
         {
           "reference": "1 Timothy 6:17-19",
-          "note": "Paul's charge to the wealthy: hope in God, do good, be generous.",
-          "text": "Charge those who are rich in this present world that they not be haughty, nor have their hope set on the uncertainty of riches, but on the living God, who richly provides us with everything to enjoy; that they do good, that they be rich in good works, that they be ready to distribute, willing to share; laying up in store for themselves a good foundation against the time to come, that they may lay hold of eternal life."
+          "note": "Paul's charge to the wealthy: hope in God, do good, be generous."
         },
         {
           "reference": "Proverbs 30:8-9",
-          "note": "A prayer for neither poverty nor riches.",
-          "text": "Remove far from me falsehood and lies. Give me neither poverty nor riches. Feed me with the food that is needful for me; lest I be full, deny you, and say, ‘Who is Yahweh?’ or lest I be poor, and steal, and so dishonor the name of my God."
+          "note": "A prayer for neither poverty nor riches."
         }
       ],
       "reflection": "If you had more money, what would you want it to do — and what does that reveal about your heart?",
@@ -923,20 +806,12 @@
     ],
     "question": "Is social media taking over my life?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Ephesians 5:15-16",
-          "text": "Therefore watch carefully how you walk, not as unwise, but as wise; redeeming the time, because the days are evil."
+          "reference": "Ephesians 5:15-16"
         }
       ],
-      "fullPassage": "Ephesians 5:15-21",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Ephesians 5:15-21"
     },
     "explanation": "Paul didn't have phones in mind, but he knew attention is something we steward. “Redeeming the time” means using your limited hours on purpose. Social media isn't evil in itself, yet endless scrolling can quietly shape your mood, your desires, and how you see yourself. Ask whether it's serving your life or spending it.",
     "keywords": [
@@ -964,17 +839,18 @@
       "relatedPassages": [
         {
           "reference": "Philippians 4:8",
-          "note": "A filter for what we let fill our minds.",
-          "text": "Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report; if there is any virtue, and if there is any praise, think about these things."
+          "note": "A filter for what we let fill our minds."
         },
         {
           "reference": "Psalm 90:12",
-          "note": "A prayer to number our days and gain a heart of wisdom.",
-          "text": "So teach us to count our days, that we may gain a heart of wisdom."
+          "note": "A prayer to number our days and gain a heart of wisdom."
         }
       ],
       "reflection": "How do you usually feel after scrolling, and what might God be inviting you to do with that time instead?",
-      "prayer": "Lord, help me use my time and attention on purpose. Free me from what pulls me away from You and the people in front of me."
+      "prayer": "Lord, help me use my time and attention on purpose. Free me from what pulls me away from You and the people in front of me.",
+      "citations": [
+        "Ephesians 5:8"
+      ]
     },
     "editorial": {
       "version": 1,
@@ -999,20 +875,12 @@
     ],
     "question": "Why does God allow suffering?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "John 16:33",
-          "text": "I have told you these things, that in me you may have peace. In the world you have oppression; but cheer up! I have overcome the world.”"
+          "reference": "John 16:33"
         }
       ],
-      "fullPassage": "John 16:25-33",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "John 16:25-33"
     },
     "explanation": "The Bible doesn't give a tidy answer, and it never asks you to pretend pain is good. Jesus said plainly that trouble would come, then pointed to Himself. Scripture shows God entering our suffering in Jesus, and it promises a day when every tear will be wiped away. That hope doesn't erase the question, but it changes how we carry it.",
     "keywords": [
@@ -1041,13 +909,11 @@
       "relatedPassages": [
         {
           "reference": "Romans 8:18",
-          "note": "Present suffering set against future glory.",
-          "text": "For I consider that the sufferings of this present time are not worthy to be compared with the glory which will be revealed toward us."
+          "note": "Present suffering set against future glory."
         },
         {
           "reference": "Revelation 21:4",
-          "note": "The promise that God will wipe away every tear.",
-          "text": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away.”"
+          "note": "The promise that God will wipe away every tear."
         }
       ],
       "reflection": "Where are you carrying pain right now, and what would it mean to bring it honestly to Jesus — questions and all?",
@@ -1076,22 +942,14 @@
     ],
     "question": "Why did Jesus die?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Romans 5:8",
-          "text": "But God commends his own love toward us, in that while we were yet sinners, Christ died for us."
+          "reference": "Romans 5:8"
         }
       ],
-      "fullPassage": "Romans 5:1-11",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Romans 5:1-11"
     },
-    "explanation": "Jesus' death wasn't a tragic accident. The Bible says He gave His life to deal with sin — the wrong that separates us from God — taking on Himself what we couldn't fix. And notice the timing: “while we were yet sinners.” God's love didn't wait for you to get your life together. He moved first.",
+    "explanation": "Jesus' death wasn't a tragic accident. The Bible says He gave His life to deal with sin — the wrong that separates us from God — taking on Himself what we couldn't fix. And notice the timing: while we were still sinners, “Christ died for us.” God's love didn't wait for you to get your life together. He moved first.",
     "keywords": [
       "cross",
       "crucifixion",
@@ -1117,13 +975,11 @@
       "relatedPassages": [
         {
           "reference": "Isaiah 53:5",
-          "note": "A prophecy of a servant wounded for others' wrongs.",
-          "text": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed."
+          "note": "A prophecy of a servant wounded for others' wrongs."
         },
         {
           "reference": "1 Peter 3:18",
-          "note": "Christ suffered once for sins, the righteous for the unrighteous, to bring us to God.",
-          "text": "Because Christ also suffered for sins once, the righteous for the unrighteous, that he might bring you to God; being put to death in the flesh, but made alive in the spirit;"
+          "note": "Christ suffered once for sins, the righteous for the unrighteous, to bring us to God."
         }
       ],
       "reflection": "What does it mean to you that God's love “moved first,” before you had anything to offer?",
@@ -1152,22 +1008,14 @@
     ],
     "question": "Does Jesus actually care about someone like me?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Matthew 11:28",
-          "text": "“Come to me, all you who labor and are heavily burdened, and I will give you rest."
+          "reference": "Matthew 11:28"
         }
       ],
-      "fullPassage": "Matthew 11:25-30",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Matthew 11:25-30"
     },
-    "explanation": "Jesus spoke these words to ordinary, worn-out people, not just the religious elite. He doesn't ask you to get it together first. His invitation is simply “come.” Whatever you're carrying — guilt, exhaustion, questions — He offers rest. In the very next verse He describes Himself as “gentle and humble in heart.”",
+    "explanation": "Jesus spoke these words to ordinary, worn-out people, not just the religious elite. He doesn't ask you to get it together first. His invitation is simply “come.” Whatever you're carrying — guilt, exhaustion, questions — He offers rest. In the very next verse He describes Himself as gentle and humble at heart.",
     "keywords": [
       "does god love me",
       "unworthy",
@@ -1188,17 +1036,15 @@
       "habits-keep-doing"
     ],
     "study": {
-      "context": "Earlier in Matthew 11, Jesus is criticized for welcoming “tax collectors and sinners” (11:19). Here He thanks the Father for revealing truth to “infants” rather than to the self-sufficient “wise and understanding.” His invitation to the weary contrasts with religious teachers who placed heavy burdens on people (see Matthew 23:4).",
+      "context": "Earlier in Matthew 11, Jesus is criticized for welcoming tax collectors and others seen as sinners (11:19). Here He thanks the Father for revealing truth to the childlike rather than to the self-sufficient who think themselves wise (11:25). His invitation to the weary contrasts with religious teachers who placed heavy burdens on people (see Matthew 23:4).",
       "relatedPassages": [
         {
           "reference": "Matthew 11:29-30",
-          "note": "Jesus describes His yoke as easy and His burden as light.",
-          "text": "Take my yoke upon you, and learn from me, for I am gentle and humble in heart; and you will find rest for your souls. For my yoke is easy, and my burden is light.”"
+          "note": "Jesus describes His yoke as easy and His burden as light."
         },
         {
           "reference": "Luke 15:20",
-          "note": "The father runs to welcome the returning son.",
-          "text": "“He arose, and came to his father. But while he was still far off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and kissed him."
+          "note": "The father runs to welcome the returning son."
         }
       ],
       "reflection": "What are you carrying that you could bring to Jesus today, just as you are?",
@@ -1227,20 +1073,12 @@
     ],
     "question": "How do I know if my relationship is healthy?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "1 Corinthians 13:4-5",
-          "text": "Love is patient and is kind; love doesn’t envy. Love doesn’t brag, is not proud, doesn’t behave itself inappropriately, doesn’t seek its own way, is not provoked, takes no account of evil;"
+          "reference": "1 Corinthians 13:4-5"
         }
       ],
-      "fullPassage": "1 Corinthians 13",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "1 Corinthians 13"
     },
     "explanation": "Paul wrote this to a divided church, but it paints a clear picture of real love: patient, kind, not controlling or self-seeking. Hold your relationship up to it, and your own behavior too. If you feel afraid, controlled, or belittled, that isn't the love Scripture describes, and it's wise to talk with someone you trust.",
     "keywords": [
@@ -1269,13 +1107,11 @@
       "relatedPassages": [
         {
           "reference": "Ephesians 4:2",
-          "note": "Humility, gentleness, and patience as marks of life together.",
-          "text": "with all lowliness and humility, with patience, bearing with one another in love;"
+          "note": "Humility, gentleness, and patience as marks of life together."
         },
         {
           "reference": "Proverbs 13:20",
-          "note": "The people we walk with shape who we become.",
-          "text": "One who walks with wise men grows wise, but a companion of fools suffers harm."
+          "note": "The people we walk with shape who we become."
         }
       ],
       "reflection": "Which quality of love in this passage is easiest for you, and which is hardest?",
@@ -1304,22 +1140,14 @@
     ],
     "question": "What if I don't know how to pray?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Romans 8:26",
-          "text": "In the same way, the Spirit also helps our weaknesses, for we don’t know how to pray as we ought. But the Spirit himself makes intercession for us with groanings which can’t be uttered."
+          "reference": "Romans 8:26"
         }
       ],
-      "fullPassage": "Romans 8:18-30",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Romans 8:18-30"
     },
-    "explanation": "Paul admits that even mature believers “don't know how to pray as we ought.” Prayer isn't a performance that requires the right words. When all you can manage is a sigh, a few honest sentences, or silence, God's Spirit is helping you. Start simply: tell God what's true, and ask for what you need.",
+    "explanation": "Paul admits that even mature believers don't know what or how to pray as they should. Prayer isn't a performance that requires the right words. When all you can manage is a sigh, a few honest sentences, or silence, God's Spirit is helping you. Start simply: tell God what's true, and ask for what you need.",
     "keywords": [
       "how to pray",
       "pray",
@@ -1343,13 +1171,11 @@
       "relatedPassages": [
         {
           "reference": "Psalm 62:8",
-          "note": "An invitation to pour out your heart before God.",
-          "text": "Trust in him at all times, you people. Pour out your heart before him. God is a refuge for us. Selah."
+          "note": "An invitation to pour out your heart before God."
         },
         {
           "reference": "Luke 11:1",
-          "note": "Even Jesus' disciples asked Him to teach them to pray.",
-          "text": "When he finished praying in a certain place, one of his disciples said to him, “Lord, teach us to pray, just as John also taught his disciples.”"
+          "note": "Even Jesus' disciples asked Him to teach them to pray."
         }
       ],
       "reflection": "If you told God one true sentence about how you're doing right now, what would it be?",
@@ -1378,20 +1204,12 @@
     ],
     "question": "Will this heartbreak ever stop hurting?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Psalm 34:18",
-          "text": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit."
+          "reference": "Psalm 34:18"
         }
       ],
-      "fullPassage": "Psalm 34",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Psalm 34"
     },
     "explanation": "Scripture doesn't promise the ache will vanish overnight. It promises something closer: God is near to the brokenhearted. Healing often comes slowly — through time, honest grief, good friends, and God's quiet presence. Your pain isn't a sign that God has left. This verse says it's exactly where He draws near.",
     "keywords": [
@@ -1418,17 +1236,18 @@
       "relatedPassages": [
         {
           "reference": "Psalm 147:3",
-          "note": "God heals the brokenhearted and binds up their wounds.",
-          "text": "He heals the broken in heart, and binds up their wounds."
+          "note": "God heals the brokenhearted and binds up their wounds."
         },
         {
           "reference": "Matthew 5:4",
-          "note": "Jesus' blessing on those who mourn.",
-          "text": "Blessed are those who mourn, for they shall be comforted."
+          "note": "Jesus' blessing on those who mourn."
         }
       ],
       "reflection": "Who is one person you could let into your grief this week?",
-      "prayer": "Lord, my heart hurts. Be close to me like You promised. Heal me slowly and gently."
+      "prayer": "Lord, my heart hurts. Be close to me like You promised. Heal me slowly and gently.",
+      "citations": [
+        "Psalm 34:19"
+      ]
     },
     "editorial": {
       "version": 1,
@@ -1453,20 +1272,12 @@
     ],
     "question": "Who was Jesus, really?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "John 1:14",
-          "text": "The Word became flesh, and lived among us. We saw his glory, such glory as of the one and only Son of the Father, full of grace and truth."
+          "reference": "John 1:14"
         }
       ],
-      "fullPassage": "John 1:1-18",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "John 1:1-18"
     },
     "explanation": "John opens his Gospel by calling Jesus “the Word,” God's own self-expression, and then says the Word became flesh. Christians believe Jesus wasn't only a wise teacher or a prophet, but God Himself who came to live among us. If you want to know what God is like, John says, look at Jesus.",
     "keywords": [
@@ -1488,21 +1299,22 @@
       "jesus-care-for-me"
     ],
     "study": {
-      "context": "John's prologue (1:1–18) echoes Genesis 1: “In the beginning was the Word.” The phrase “lived among us” can also be translated “tabernacled” or “pitched His tent” — recalling God's presence dwelling with Israel in the wilderness. John's claim is that in Jesus, God has come to dwell with people in person.",
+      "context": "John's prologue (1:1–18) echoes Genesis 1: “In the beginning was the Word.” John's word for living among us literally means to pitch a tent or tabernacle — recalling God's presence dwelling with Israel in the wilderness. John's claim is that in Jesus, God has come to dwell with people in person.",
       "relatedPassages": [
         {
           "reference": "Colossians 1:15",
-          "note": "Jesus as the image of the invisible God.",
-          "text": "who is the image of the invisible God, the firstborn of all creation."
+          "note": "Jesus as the image of the invisible God."
         },
         {
           "reference": "John 14:9",
-          "note": "“He who has seen me has seen the Father.”",
-          "text": "Jesus said to him, “Have I been with you such a long time, and do you not know me, Philip? He who has seen me has seen the Father. How do you say, ‘Show us the Father?’"
+          "note": "Jesus tells Philip that whoever has seen Him has seen the Father."
         }
       ],
       "reflection": "What do you notice about God when you look at the way Jesus treated people?",
-      "prayer": "Jesus, I want to know who You really are. Show me."
+      "prayer": "Jesus, I want to know who You really are. Show me.",
+      "citations": [
+        "John 1:1"
+      ]
     },
     "editorial": {
       "version": 1,
@@ -1527,20 +1339,12 @@
     ],
     "question": "Is it a sin to have doubts?",
     "scripture": {
-      "translation": "WEB",
       "passages": [
         {
-          "reference": "Mark 9:24",
-          "text": "Immediately the father of the child cried out with tears, “I believe. Help my unbelief!”"
+          "reference": "Mark 9:24"
         }
       ],
-      "fullPassage": "Mark 9:14-29",
-      "verification": {
-        "status": "verified",
-        "source": "bible-api.com",
-        "license": "Public Domain",
-        "verifiedAt": "2026-11-01"
-      }
+      "fullPassage": "Mark 9:14-29"
     },
     "explanation": "A desperate father brought his son to Jesus and admitted his faith was mixed with unbelief. Jesus didn't send him away; He helped. Doubt isn't the opposite of faith. Honest questions brought to God can become part of how faith grows.",
     "keywords": [
@@ -1565,13 +1369,11 @@
       "relatedPassages": [
         {
           "reference": "Psalm 42:11",
-          "note": "The psalmist's honest wrestling with discouragement.",
-          "text": "Why are you in despair, my soul? Why are you disturbed within me? Hope in God! For I shall still praise him, the saving help of my countenance, and my God."
+          "note": "The psalmist's honest wrestling with discouragement."
         },
         {
           "reference": "Mark 9:23",
-          "note": "Jesus' words to the father just before his cry.",
-          "text": "Jesus said to him, “If you can believe, all things are possible to him who believes.”"
+          "note": "Jesus' words to the father just before his cry."
         }
       ],
       "reflection": "What question about God would you be willing to bring honestly to Him?",
@@ -1583,6 +1385,1566 @@
       "reviewer": null,
       "theologicalReview": "pending",
       "publishedAt": null,
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "id-how-god-sees-me",
+    "slug": "how-does-god-actually-see-me",
+    "status": "published",
+    "priority": 94,
+    "primaryCategory": "identity",
+    "primaryTopic": "identity",
+    "tags": [
+      "identity",
+      "worth",
+      "love"
+    ],
+    "question": "How does God actually see me?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Psalm 139:14"
+        }
+      ],
+      "fullPassage": "Psalm 139:1-18"
+    },
+    "explanation": "This psalm is a prayer, not a pep talk. It starts with God knowing the writer completely: when he sits down, when he gets up, the words on his tongue before he says them. Then it turns to wonder at being “fearfully and wonderfully made.” God doesn't see a filtered version of you. You're fully known, and you were made with care.",
+    "keywords": [
+      "self worth",
+      "not good enough",
+      "do i matter",
+      "insecure",
+      "who am i",
+      "low self esteem",
+      "body image",
+      "how god sees me"
+    ],
+    "interpretation": "direct-teaching",
+    "care": "mental-health",
+    "image": {
+      "key": "id-how-god-sees-me",
+      "alt": "A woman looks at her reflection in a mirror hanging on a pale wall."
+    },
+    "relatedCardIds": [
+      "lonely-invisible",
+      "jesus-care-for-me"
+    ],
+    "study": {
+      "context": "The heading of Psalm 139 links it to David and addresses it to the choir director, suggesting it was sung in worship. The psalm moves from God knowing the writer completely (verses 1–6), to God being present wherever he might go (7–12), to God forming him before birth (13–16). It closes with the writer asking God to search his heart (23–24). The tone is awe, not self-confidence: his worth rests on being known and made by God.",
+      "relatedPassages": [
+        {
+          "reference": "1 Samuel 16:7",
+          "note": "When Samuel judged a potential king by his looks, God reminded him that He sees past appearances to the heart."
+        },
+        {
+          "reference": "1 John 3:1",
+          "note": "John marvels at the love that calls those who belong to the Father His children, an identity given as a gift rather than earned."
+        }
+      ],
+      "reflection": "If you're already fully known by God, what are you still trying to hide or prove?",
+      "prayer": "God, You know all of me, even the parts I keep hidden. Help me believe I was made with care, and teach me to see myself the way You do.",
+      "citations": [
+        "Psalm 139:1-12",
+        "Psalm 139:13-16",
+        "Psalm 139:23-24"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "id-comparison",
+    "slug": "why-do-i-keep-comparing-myself-to-everyone",
+    "status": "published",
+    "priority": 83,
+    "primaryCategory": "identity",
+    "primaryTopic": "identity",
+    "tags": [
+      "identity",
+      "comparison",
+      "contentment"
+    ],
+    "question": "Why do I keep comparing myself to everyone?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Galatians 6:4-5"
+        }
+      ],
+      "fullPassage": "Galatians 6:1-10"
+    },
+    "explanation": "Paul wrote this to divided churches, right after warning them not to provoke and envy one another. Comparing can feel like a way to find out where you stand, but it usually leaves you either puffed up or crushed, and you only see part of anyone else's story. Paul's answer is to look honestly at your own life, so any joy you find isn't built on outdoing someone else.",
+    "keywords": [
+      "comparing myself",
+      "jealous of my friends",
+      "everyone is ahead of me",
+      "instagram envy",
+      "not as good as them",
+      "feel behind in life",
+      "envy",
+      "measuring up"
+    ],
+    "interpretation": "direct-teaching",
+    "image": {
+      "key": "id-comparison",
+      "alt": "White lane lines curve side by side across a red running track."
+    },
+    "relatedCardIds": [
+      "id-how-god-sees-me",
+      "digital-social-media"
+    ],
+    "study": {
+      "context": "Galatians is often considered one of Paul's earlier letters, written to churches in Galatia, a region in what is now central Turkey. They were divided over whether non-Jewish believers needed to keep the Jewish law. Just before this passage, Paul warns against conceit and envy (5:26). He then urges them to carry one another's burdens (6:2) while each person also takes responsibility for their own life (6:5).",
+      "relatedPassages": [
+        {
+          "reference": "2 Corinthians 10:12",
+          "note": "Paul refuses to rank himself against rivals, saying that people “measuring themselves by themselves” lack real understanding."
+        },
+        {
+          "reference": "John 21:21-22",
+          "note": "When Peter asked about another disciple's future, Jesus turned him back to his own path: keep following Me."
+        }
+      ],
+      "reflection": "Whose life do you measure yours against most often, and how do you usually feel afterward?",
+      "prayer": "Jesus, I keep looking sideways at other people's lives. Turn my eyes back to the life You've given me, and help me be faithful in it.",
+      "citations": [
+        "Galatians 5:26",
+        "Galatians 6:2"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "lonely-around-people",
+    "slug": "why-do-i-feel-so-alone-even-around-people",
+    "status": "published",
+    "priority": 90,
+    "primaryCategory": "identity",
+    "primaryTopic": "loneliness",
+    "tags": [
+      "loneliness",
+      "belonging",
+      "friendship"
+    ],
+    "question": "Why do I feel so alone, even around people?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Psalm 25:16"
+        }
+      ],
+      "fullPassage": "Psalm 25"
+    },
+    "explanation": "The writer of this psalm doesn't pretend. He calls himself “desolate,” and the Hebrew word can also mean lonely or alone. He asks God to turn toward him. Loneliness isn't only about being by yourself; it can be feeling unknown in a full room. The psalm doesn't scold that feeling. It gives you words to bring it to God, and it's worth bringing to someone you trust, too.",
+    "keywords": [
+      "lonely",
+      "alone in a crowd",
+      "no one understands me",
+      "feel disconnected",
+      "no close friends",
+      "lonely in my marriage",
+      "isolated",
+      "left out"
+    ],
+    "interpretation": "sensitive-personal",
+    "care": "mental-health",
+    "image": {
+      "key": "lonely-around-people",
+      "alt": "Passengers on a train sit side by side, each looking down at a phone."
+    },
+    "relatedCardIds": [
+      "lonely-invisible",
+      "jesus-care-for-me"
+    ],
+    "study": {
+      "context": "Psalm 25 is linked to David in its heading and is written as a loose acrostic: in Hebrew, its verses begin with successive letters of the alphabet. It weaves together requests for guidance, honest confession, and cries for help. Near the end, the prayer grows more urgent as the writer describes troubles that keep growing and enemies around him (25:17–19). His loneliness is part of a larger hard season.",
+      "relatedPassages": [
+        {
+          "reference": "Matthew 26:38-40",
+          "note": "In Gethsemane, Jesus asked His closest friends to stay with Him and found them asleep, so He knows what it is to be alone with people nearby."
+        },
+        {
+          "reference": "Psalm 68:6",
+          "note": "God is pictured as the one who places lonely people in families, showing that belonging matters to Him."
+        }
+      ],
+      "reflection": "Who is one person you could let see a little more of how you're really doing this week?",
+      "prayer": "God, I feel alone even when I'm not by myself. Turn toward me, and lead me to people I can be honest with.",
+      "citations": [
+        "Psalm 25:17-19"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "lonely-invisible",
+    "slug": "does-god-notice-me-when-i-feel-invisible",
+    "status": "published",
+    "priority": 79,
+    "primaryCategory": "identity",
+    "primaryTopic": "loneliness",
+    "tags": [
+      "loneliness",
+      "worth",
+      "belonging"
+    ],
+    "question": "Does God notice me when I feel invisible?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Genesis 16:13"
+        }
+      ],
+      "fullPassage": "Genesis 16"
+    },
+    "explanation": "Hagar was an enslaved Egyptian woman, given to Abram by his wife Sarai to bear a child, then treated so harshly she fled into the desert. The people in charge of her life never call her by name. But God finds her, calls her by name, and hears her distress. She names Him the God who sees her. Feeling unseen by people doesn't mean you're unseen by Him.",
+    "keywords": [
+      "invisible",
+      "nobody notices me",
+      "overlooked",
+      "forgotten",
+      "does god notice me",
+      "ignored",
+      "unseen",
+      "feel unimportant"
+    ],
+    "interpretation": "sensitive-personal",
+    "care": "abuse",
+    "image": {
+      "key": "lonely-invisible",
+      "alt": "A lone person walks across a wide stretch of brown sand."
+    },
+    "relatedCardIds": [
+      "lonely-around-people",
+      "id-how-god-sees-me"
+    ],
+    "study": {
+      "context": "Genesis 16 is part of the story of Abram and Sarai, later called Abraham and Sarah. Childless, Sarai gave her Egyptian servant Hagar to Abram to bear a child, a custom attested in ancient Near Eastern texts. Once Hagar was pregnant, Sarai treated her harshly until she fled (16:1–6). The angel of the LORD is the first to address her by name (16:8). His instruction to go back (16:9) is hard to read: it belongs to Hagar's story, not a rule that anyone must return to someone who harms them.",
+      "relatedPassages": [
+        {
+          "reference": "Mark 5:30-34",
+          "note": "A woman who touched Jesus in a pressing crowd didn't come forward at first, but He stopped, looked around for her, and called her “daughter.”"
+        },
+        {
+          "reference": "Luke 12:6-7",
+          "note": "Jesus says not one sparrow is forgotten by God, and that people are worth far more than many sparrows."
+        }
+      ],
+      "reflection": "Where in your life do you feel most unseen right now, and what would you want God to notice there?",
+      "prayer": "God who sees, I feel overlooked right now. Help me trust that You notice me, even when it seems no one else does.",
+      "citations": [
+        "Genesis 16:1-6",
+        "Genesis 16:8",
+        "Genesis 16:9"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "anger-is-it-sin",
+    "slug": "is-it-a-sin-to-be-angry",
+    "status": "published",
+    "priority": 88,
+    "primaryCategory": "emotional-life",
+    "primaryTopic": "anger",
+    "tags": [
+      "anger",
+      "self-control",
+      "forgiveness"
+    ],
+    "question": "Is it a sin to be angry?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Ephesians 4:26"
+        }
+      ],
+      "fullPassage": "Ephesians 4:25-32"
+    },
+    "explanation": "Paul expects his readers to feel angry sometimes, and he doesn't treat the feeling itself as sin. His concern is what anger turns into. Left to simmer overnight, it can harden into bitterness or spill out in words you regret. The Gospels even show Jesus angry at people's hard hearts. So the question isn't whether you feel anger, but whether you deal with it before it starts running you.",
+    "keywords": [
+      "is anger a sin",
+      "so angry",
+      "righteous anger",
+      "mad at someone",
+      "is it okay to be mad",
+      "furious",
+      "bitterness",
+      "angry christian"
+    ],
+    "interpretation": "direct-teaching",
+    "image": {
+      "key": "anger-is-it-sin",
+      "alt": "A dark storm system rolls across a wide stretch of open water."
+    },
+    "relatedCardIds": [
+      "anger-temper",
+      "forgive-someone-hurt-me"
+    ],
+    "study": {
+      "context": "Ephesians is traditionally credited to Paul, though some scholars think a close follower wrote it in his name. Chapter 4 describes how believers should treat one another: telling the truth, working honestly, and speaking words that build others up. Paul's opening phrase echoes Psalm 4:4 as it reads in the ancient Greek translation of the Old Testament. A few verses later, he urges readers to put away bitterness, wrath, anger, and malice (4:31), so his concern seems to be anger that lingers and turns destructive.",
+      "relatedPassages": [
+        {
+          "reference": "Mark 3:5",
+          "note": "Jesus looks at His critics “with anger, being grieved” by their hard hearts, and then heals the man in front of Him."
+        },
+        {
+          "reference": "Ecclesiastes 7:9",
+          "note": "The Teacher warns against being quick-tempered, because anger that settles in and stays is a mark of foolishness, not wisdom."
+        }
+      ],
+      "reflection": "What is your anger pointing to right now, and what is one healthy step you could take with it today?",
+      "prayer": "God, You see what I'm angry about. Help me be honest about it without letting it lead me somewhere I'll regret.",
+      "citations": [
+        "Psalm 4:4",
+        "Ephesians 4:31"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "anger-temper",
+    "slug": "how-do-i-stop-losing-my-temper",
+    "status": "published",
+    "priority": 80,
+    "primaryCategory": "emotional-life",
+    "primaryTopic": "anger",
+    "tags": [
+      "anger",
+      "patience",
+      "self-control"
+    ],
+    "question": "How do I stop losing my temper?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "James 1:19-20"
+        }
+      ],
+      "fullPassage": "James 1:19-27"
+    },
+    "explanation": "James gives a simple order for heated moments: be “swift to hear, slow to speak,” and slow to anger. Most blowups happen when we react before we understand. He's also honest that human anger doesn't bring about the good God wants. Change often starts with space: a pause, a breath, a question. If your anger has ever made someone feel unsafe, a counselor can help.",
+    "keywords": [
+      "short fuse",
+      "anger issues",
+      "yelling at my kids",
+      "snapping at people",
+      "can't control my temper",
+      "road rage",
+      "losing it",
+      "anger management"
+    ],
+    "interpretation": "direct-teaching",
+    "care": "abuse",
+    "image": {
+      "key": "anger-temper",
+      "alt": "A single lit match flares against a dark background."
+    },
+    "relatedCardIds": [
+      "anger-is-it-sin",
+      "habits-keep-doing"
+    ],
+    "study": {
+      "context": "This letter is traditionally linked to James, a brother of Jesus who led the early church in Jerusalem, though scholars discuss who wrote it and when. It is addressed to “the twelve tribes” scattered abroad (1:1), likely Jewish followers of Jesus living in many places. Much of it reads like practical wisdom in the style of Proverbs. These verses lead straight into James's call to be “doers of the word” and not just listeners (1:22).",
+      "relatedPassages": [
+        {
+          "reference": "Proverbs 15:1",
+          "note": "A gentle reply can calm a tense moment, while a harsh word stirs up even more anger."
+        },
+        {
+          "reference": "Galatians 5:22-23",
+          "note": "Paul lists self-control among the qualities God's Spirit grows in a person over time, so change doesn't rest on willpower alone."
+        }
+      ],
+      "reflection": "Where in your last blowup could a short pause have changed what happened next?",
+      "prayer": "God, slow me down. Help me listen before I speak, and grow a patience in me that I can't produce on my own.",
+      "citations": [
+        "James 1:1",
+        "James 1:22"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "grief-how-to-grieve",
+    "slug": "how-do-i-grieve-when-i-believe-in-heaven",
+    "status": "published",
+    "priority": 81,
+    "primaryCategory": "hard-seasons",
+    "primaryTopic": "grief",
+    "tags": [
+      "grief",
+      "hope",
+      "heaven",
+      "death"
+    ],
+    "question": "How do I grieve when I believe in heaven?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "1 Thessalonians 4:13"
+        }
+      ],
+      "fullPassage": "1 Thessalonians 4:13-18"
+    },
+    "explanation": "Some believers in Thessalonica had died, and the church was grieving. Paul doesn't tell them to stop being sad. He tells them they don't have to grieve like people who “have no hope.” Hope doesn't cancel sorrow; it changes its shape. You can trust that death isn't the final word and still miss someone terribly. Missing them isn't a lack of faith.",
+    "keywords": [
+      "lost my mom",
+      "miss my dad",
+      "grieving christian",
+      "is it okay to cry",
+      "funeral",
+      "loved one in heaven",
+      "why does it still hurt",
+      "death in the family"
+    ],
+    "interpretation": "sensitive-personal",
+    "care": "grief",
+    "image": {
+      "key": "grief-how-to-grieve",
+      "alt": "An empty chair sits beside a bright window in a quiet room."
+    },
+    "relatedCardIds": [
+      "grief-does-god-care",
+      "heaven-what-happens"
+    ],
+    "study": {
+      "context": "First Thessalonians is widely considered one of Paul's earliest letters, written around AD 50 to a young church in the Greek city of Thessalonica. Paul had to leave the city soon after the church began (Acts 17:10). When some members died, the believers seem to have worried whether those who had died would miss out when Jesus returned. Paul answers by pointing to the resurrection of Jesus, then urges them to “comfort one another with these words” (4:18).",
+      "relatedPassages": [
+        {
+          "reference": "Romans 12:15",
+          "note": "Paul calls followers of Jesus to share one another's tears, so grief isn't something to hide or carry alone."
+        },
+        {
+          "reference": "Revelation 21:4",
+          "note": "The Bible's hope isn't that tears don't matter, but that one day God will wipe them away for good."
+        }
+      ],
+      "reflection": "What would it look like to let yourself hope and grieve at the same time, without having to choose one?",
+      "prayer": "God, I believe death isn't the end, and I still miss them so much. Hold me in both the hope and the hurt.",
+      "citations": [
+        "Acts 17:10",
+        "1 Thessalonians 4:18"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "grief-does-god-care",
+    "slug": "does-god-care-that-im-grieving",
+    "status": "published",
+    "priority": 89,
+    "primaryCategory": "hard-seasons",
+    "primaryTopic": "grief",
+    "tags": [
+      "grief",
+      "jesus",
+      "healing"
+    ],
+    "question": "Does God care that I'm grieving?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "John 11:33-35"
+        }
+      ],
+      "fullPassage": "John 11:1-44"
+    },
+    "explanation": "Jesus had already said He would raise Lazarus, yet when He saw Mary and the mourners with her weeping, He “groaned in the spirit” and wept too. He didn't rush past their grief or scold their tears. He stepped into it. Christians believe Jesus shows us what God is like, so your grief isn't an inconvenience to Him. He comes close to it.",
+    "keywords": [
+      "does god care",
+      "lost someone",
+      "can't stop crying",
+      "my grandma died",
+      "jesus wept",
+      "heartbroken",
+      "missing someone",
+      "does god see my pain"
+    ],
+    "interpretation": "direct-teaching",
+    "care": "grief",
+    "image": {
+      "key": "grief-does-god-care",
+      "alt": "Raindrops cover a pane of window glass in muted light."
+    },
+    "relatedCardIds": [
+      "grief-how-to-grieve",
+      "jesus-care-for-me"
+    ],
+    "study": {
+      "context": "The raising of Lazarus is often seen as the climax of the miraculous signs in John's Gospel, which is traditionally linked to the apostle John. Lazarus and his sisters, Martha and Mary, were close friends of Jesus (11:5) and lived in Bethany, near Jerusalem (11:18). By the time Jesus arrived, Lazarus had been in the tomb four days (11:17). Jesus had already told His disciples He was going to wake Lazarus up (11:11), yet He still wept with the mourners.",
+      "relatedPassages": [
+        {
+          "reference": "Psalm 56:8",
+          "note": "David pictures God collecting his tears in a bottle, a vivid way of saying that sorrow is noticed and remembered."
+        },
+        {
+          "reference": "Hebrews 4:15",
+          "note": "Jesus is described as One who can sympathize with human weakness, because He went through real human life Himself."
+        }
+      ],
+      "reflection": "What would change if you pictured Jesus standing beside you in this grief, not waiting for you to get over it?",
+      "prayer": "Jesus, You wept at Your friend's tomb. Please be near me in this loss, and help me not hide my tears from You.",
+      "citations": [
+        "John 11:5",
+        "John 11:11",
+        "John 11:17",
+        "John 11:18"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "family-honor-parents",
+    "slug": "how-do-i-honor-my-parents-when-we-dont-get-along",
+    "status": "published",
+    "priority": 85,
+    "primaryCategory": "family",
+    "primaryTopic": "family",
+    "tags": [
+      "family",
+      "parents",
+      "healing"
+    ],
+    "question": "How do I honor my parents when we don't get along?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Ephesians 6:2-3"
+        }
+      ],
+      "fullPassage": "Ephesians 6:1-4"
+    },
+    "explanation": "This is one of the Ten Commandments, which Paul repeats here, and the Hebrew word for honor carries the sense of giving someone weight. Honoring parents you clash with doesn't mean agreeing with everything or pretending things are fine. It can look like refusing contempt, speaking with respect, and caring for them where it's safe and wise. And honor never requires accepting abuse; keeping yourself safe is not dishonoring them.",
+    "keywords": [
+      "my parents",
+      "fighting with my mom",
+      "my dad and i don't talk",
+      "toxic parents",
+      "strict parents",
+      "estranged from family",
+      "boundaries with parents",
+      "honor your father and mother",
+      "difficult family"
+    ],
+    "interpretation": "sensitive-personal",
+    "care": "abuse",
+    "image": {
+      "key": "family-honor-parents",
+      "alt": "A black-and-white close-up of two people's hands held together."
+    },
+    "relatedCardIds": [
+      "forgive-someone-hurt-me",
+      "family-not-christian"
+    ],
+    "study": {
+      "context": "These verses sit inside a longer section on household relationships that opens with a call for believers to submit to one another (5:21). The commandment Paul quotes (Exodus 20:12; Deuteronomy 5:16) was given to the whole community of Israel, adults included, and is often understood to include caring for parents as they age. Then Paul immediately turns to fathers and tells them not to provoke their children to anger (6:4). In a culture where fathers held enormous authority, that two-way responsibility stands out.",
+      "relatedPassages": [
+        {
+          "reference": "Romans 12:18",
+          "note": "Paul admits that peace doesn't depend only on you, and asks you to do the part that does."
+        },
+        {
+          "reference": "Psalm 27:10",
+          "note": "The psalmist trusts that even when parents fail or abandon him, God will not."
+        }
+      ],
+      "reflection": "What would honoring your parents look like for you right now, while still being honest about what's hard and keeping yourself safe?",
+      "prayer": "God, You know my family and how hard this is. Show me how to honor my parents with honesty and wisdom, and give me courage to get help if I need it.",
+      "citations": [
+        "Ephesians 5:21",
+        "Exodus 20:12",
+        "Deuteronomy 5:16",
+        "Ephesians 6:4"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "family-not-christian",
+    "slug": "what-if-my-family-doesnt-share-my-faith",
+    "status": "published",
+    "priority": 77,
+    "primaryCategory": "family",
+    "primaryTopic": "family",
+    "tags": [
+      "family",
+      "faith",
+      "relationships"
+    ],
+    "question": "What if my family doesn't share my faith?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "1 Peter 3:15-16"
+        }
+      ],
+      "fullPassage": "1 Peter 3:8-17"
+    },
+    "explanation": "Peter wrote to Christians often misunderstood by the people around them, sometimes even at home. He doesn't tell them to win arguments or pressure anyone. He says to be ready when someone asks about “the hope that is in you,” and to answer with gentleness and respect. With family, that can mean living your faith patiently, at a pace that's wise and safe, and trusting God with the rest.",
+    "keywords": [
+      "family isn't christian",
+      "parents don't believe",
+      "atheist family",
+      "sharing my faith",
+      "only christian in my family",
+      "how to talk about jesus",
+      "religious differences",
+      "new christian",
+      "mixed faith household"
+    ],
+    "interpretation": "direct-teaching",
+    "image": {
+      "key": "family-not-christian",
+      "alt": "Two people sit together at a table with cups of coffee between them."
+    },
+    "relatedCardIds": [
+      "family-honor-parents",
+      "lonely-around-people"
+    ],
+    "study": {
+      "context": "This letter, which names Peter as its author, was written to Christians scattered across regions of what is now Turkey (1:1). Many were a small minority, misunderstood and spoken against by neighbors. Earlier in this chapter it even addresses households where a husband did not share his wife's faith (3:1). Instead of retaliating (3:9), readers are urged to keep God at the center of their hearts, keep a clear conscience, and let their everyday conduct speak alongside their words.",
+      "relatedPassages": [
+        {
+          "reference": "Colossians 4:6",
+          "note": "Paul asks that conversations with people outside the faith be gracious and “seasoned with salt,” thoughtful rather than harsh."
+        },
+        {
+          "reference": "Mark 5:19",
+          "note": "Instead of taking a healed man along with Him, Jesus sends him home to tell his own friends what God has done for him."
+        }
+      ],
+      "reflection": "How could your family see your faith this week in a way that feels like kindness rather than pressure?",
+      "prayer": "God, I love my family. Help me live my faith with patience and kindness, and give me the right words when they ask.",
+      "citations": [
+        "1 Peter 1:1",
+        "1 Peter 3:1",
+        "1 Peter 3:9"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "work-does-it-matter",
+    "slug": "does-my-ordinary-job-matter-to-god",
+    "status": "published",
+    "priority": 87,
+    "primaryCategory": "daily-living",
+    "primaryTopic": "work",
+    "tags": [
+      "work",
+      "calling",
+      "purpose"
+    ],
+    "question": "Does my ordinary job matter to God?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Colossians 3:23-24"
+        }
+      ],
+      "fullPassage": "Colossians 3:17-25"
+    },
+    "explanation": "Paul first wrote this to enslaved household workers, people whose labor was often unseen and unrewarded. He tells them their work is ultimately done for the Lord, not just for whoever is watching. That doesn't make every job feel meaningful, and it isn't a reason to accept mistreatment. But in Paul's view, ordinary work done with care is seen by God and isn't wasted.",
+    "keywords": [
+      "does my job matter",
+      "boring job",
+      "meaningless work",
+      "hate my job",
+      "faith and work",
+      "dead end job",
+      "career purpose",
+      "work feels pointless",
+      "minimum wage job"
+    ],
+    "interpretation": "modern-application",
+    "image": {
+      "key": "work-does-it-matter",
+      "alt": "A barista carefully pours steamed milk into a cup of coffee."
+    },
+    "relatedCardIds": [
+      "work-rest",
+      "purpose-gods-will"
+    ],
+    "study": {
+      "context": "Colossians, a letter traditionally attributed to Paul, was sent to a church in the small city of Colossae, in what is now southwestern Turkey. These verses sit in a section on household relationships (3:18–4:1) and are addressed to enslaved people (3:22). Paul urges them to work sincerely, not only when someone is watching, because their reward ultimately comes from the Lord. He then reminds masters to treat them justly, since they “also have a Master in heaven” (4:1).",
+      "relatedPassages": [
+        {
+          "reference": "Genesis 2:15",
+          "note": "In the Bible's opening pages, work is part of God's good design for people, given before anything has gone wrong."
+        },
+        {
+          "reference": "Ecclesiastes 3:13",
+          "note": "Ecclesiastes calls finding enjoyment in the good of your everyday labor “the gift of God.”"
+        }
+      ],
+      "reflection": "What part of your work feels unseen right now, and how might it change things to see it as done for the Lord?",
+      "prayer": "God, help me do today's work with care and honesty, even when no one notices. Let my ordinary work be an offering to You.",
+      "citations": [
+        "Colossians 3:22",
+        "Colossians 4:1"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "work-rest",
+    "slug": "is-it-okay-to-rest-when-theres-so-much-to-do",
+    "status": "published",
+    "priority": 82,
+    "primaryCategory": "daily-living",
+    "primaryTopic": "work",
+    "tags": [
+      "work",
+      "burnout",
+      "rest"
+    ],
+    "question": "Is it okay to rest when there's so much to do?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Mark 6:31"
+        }
+      ],
+      "fullPassage": "Mark 6:30-34"
+    },
+    "explanation": "Jesus said this to His closest followers right after an intense stretch of work, when there were “many coming and going” and they couldn't even find time to eat. He didn't tell them to push harder. He invited them away to a quiet place to rest. Rest wasn't a reward for finishing everything; it was part of how Jesus cared for the people doing the work.",
+    "keywords": [
+      "burned out",
+      "exhausted",
+      "too busy",
+      "guilty for resting",
+      "can't stop working",
+      "workaholic",
+      "need a break",
+      "overworked",
+      "no time for myself"
+    ],
+    "interpretation": "direct-teaching",
+    "care": "mental-health",
+    "image": {
+      "key": "work-rest",
+      "alt": "A small boat sits on still water beneath a soft sunset sky."
+    },
+    "relatedCardIds": [
+      "work-does-it-matter",
+      "jesus-care-for-me"
+    ],
+    "study": {
+      "context": "Mark's Gospel moves quickly, and this pause stands out. Jesus had sent His twelve apostles out in pairs to preach and heal (6:7, 12–13), and Mark places their return right after the account of John the Baptist's execution (6:14–29). When they report back, Jesus invites them to get away, and they leave by boat. The crowds follow anyway, and Jesus meets them with compassion, so the break is interrupted. Still, Mark shows Jesus taking His followers' exhaustion seriously.",
+      "relatedPassages": [
+        {
+          "reference": "Mark 2:27",
+          "note": "Jesus teaches that the Sabbath, a weekly day of rest, was made for people's good rather than as a burden placed on them."
+        },
+        {
+          "reference": "Psalm 127:2",
+          "note": "The psalmist warns that anxious work from early morning to late at night is in vain, because sleep itself is something God gives."
+        }
+      ],
+      "reflection": "What is one small way you could step away and rest this week, even if not everything is done?",
+      "prayer": "Jesus, I'm tired, and the list isn't getting shorter. Teach me to rest without guilt and to trust You with what's left undone.",
+      "citations": [
+        "Mark 6:7",
+        "Mark 6:12-13",
+        "Mark 6:14-29",
+        "Mark 6:32-34"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "sex-before-marriage",
+    "slug": "what-does-the-bible-say-about-sex-before-marriage",
+    "status": "published",
+    "priority": 78,
+    "primaryCategory": "love-sexuality",
+    "primaryTopic": "sexuality",
+    "tags": [
+      "sexuality",
+      "marriage",
+      "purity",
+      "dating"
+    ],
+    "question": "What does the Bible say about sex before marriage?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Hebrews 13:4"
+        }
+      ],
+      "fullPassage": "Hebrews 13:1-6"
+    },
+    "explanation": "Near the end of Hebrews, the writer urges early Christians to honor marriage and keep the marriage bed pure. Across Scripture, sex is treated as a good, powerful gift that belongs within the lifelong commitment of marriage, and that remains the historic and majority teaching of the church. That's a high calling, not a measure of your worth, and God's grace is for people with every kind of history.",
+    "keywords": [
+      "sex before marriage",
+      "premarital sex",
+      "sleeping with my boyfriend",
+      "sleeping with my girlfriend",
+      "waiting until marriage",
+      "is sex a sin",
+      "virginity",
+      "living together",
+      "purity"
+    ],
+    "interpretation": "direct-teaching",
+    "image": {
+      "key": "sex-before-marriage",
+      "alt": "A man and a woman hold hands, shown up close in soft, shallow focus."
+    },
+    "relatedCardIds": [
+      "sex-past-forgiven",
+      "rel-healthy"
+    ],
+    "study": {
+      "context": "Hebrews was written to early Christians, many likely from a Jewish background, who were under pressure and tempted to drift from their faith. Its author is unknown. Chapter 13 gathers practical instructions for life together: keep loving one another, welcome strangers, remember prisoners, honor marriage, and stay free from the love of money. Verse 4 pairs that honor with a warning that names both sexual sin in general and unfaithfulness within marriage.",
+      "relatedPassages": [
+        {
+          "reference": "Genesis 2:24",
+          "note": "From the beginning, the Bible pictures sexual union within marriage, as husband and wife are joined and become one flesh."
+        },
+        {
+          "reference": "1 Corinthians 7:2",
+          "note": "Paul treats marriage as the place for a sexual relationship, telling each man and each woman to have their own spouse."
+        }
+      ],
+      "reflection": "In the relationship or season you're in right now, what is one honest step toward honoring God with your body?",
+      "prayer": "God, You made love, desire, and my body. Help me honor You with them, and remind me that Your grace is bigger than my story.",
+      "citations": [
+        "Hebrews 13:1-3",
+        "Hebrews 13:5"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "sex-past-forgiven",
+    "slug": "can-god-forgive-my-sexual-past",
+    "status": "published",
+    "priority": 91,
+    "primaryCategory": "love-sexuality",
+    "primaryTopic": "sexuality",
+    "tags": [
+      "sexuality",
+      "shame",
+      "grace"
+    ],
+    "question": "Can God forgive my sexual past?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "1 Corinthians 6:11"
+        }
+      ],
+      "fullPassage": "1 Corinthians 6:9-11"
+    },
+    "explanation": "Paul wrote to a church in Corinth where some believers had complicated pasts, including sexual ones. After listing behaviors that once marked them, he says “such were some of you,” then calls them washed and made right with God through Jesus. Your past is real, but it doesn't get the final word. And if something was done to you without consent, that was never your sin.",
+    "keywords": [
+      "sexual past",
+      "slept around",
+      "hookups",
+      "lost my virginity",
+      "affair",
+      "porn",
+      "ashamed of my past",
+      "feel dirty",
+      "can god forgive me",
+      "sexual sin"
+    ],
+    "interpretation": "sensitive-personal",
+    "care": "abuse",
+    "image": {
+      "key": "sex-past-forgiven",
+      "alt": "A houseplant sits in a sunlit window, glowing in warm light with a soft lens flare."
+    },
+    "relatedCardIds": [
+      "forgive-myself",
+      "sex-before-marriage"
+    ],
+    "study": {
+      "context": "Corinth was a wealthy Roman colony and trading city in Greece, and its church mixed people from very different backgrounds. In 6:9–10 Paul lists ways of life, including sexual sin, greed, and drunkenness, that don't fit God's kingdom. Two words in that list are rare Greek terms that translations render differently, and Christians disagree about how they apply to same-sex relationships today. Then Paul tells the believers they were washed, sanctified (set apart for God), and justified (made right with God): the change rests on what God has done.",
+      "relatedPassages": [
+        {
+          "reference": "1 John 1:9",
+          "note": "When we're honest with God about what we've done, He is faithful to forgive and to make us clean."
+        },
+        {
+          "reference": "2 Corinthians 5:17",
+          "note": "Anyone who is in Christ is described as a new creation, with the old passing away."
+        }
+      ],
+      "reflection": "Which part of your past do you still treat as the final word about you?",
+      "prayer": "Jesus, You know my whole story, and You don't turn away. Help me believe that in You I am washed and made new.",
+      "citations": [
+        "1 Corinthians 6:9-10"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "forgive-myself",
+    "slug": "how-do-i-forgive-myself",
+    "status": "published",
+    "priority": 83,
+    "primaryCategory": "relationships",
+    "primaryTopic": "forgiveness",
+    "tags": [
+      "forgiveness",
+      "grace",
+      "shame",
+      "healing"
+    ],
+    "question": "How do I forgive myself?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Psalm 103:12"
+        }
+      ],
+      "fullPassage": "Psalm 103:8-14"
+    },
+    "explanation": "The Bible doesn't really talk about forgiving yourself, but it says a lot about how God forgives. Psalm 103 praises a God who has removed our wrongs “as far as the east is from the west.” When guilt keeps replaying, the deeper question may be whether you can let that be true for you. Making amends can still matter, but you don't have to keep punishing yourself.",
+    "keywords": [
+      "forgive myself",
+      "can't let it go",
+      "guilt",
+      "regret",
+      "hate myself",
+      "beating myself up",
+      "keep replaying it",
+      "ashamed",
+      "mistakes",
+      "self-forgiveness"
+    ],
+    "interpretation": "modern-application",
+    "care": "mental-health",
+    "image": {
+      "key": "forgive-myself",
+      "alt": "A hand reaches toward a bright, low sun in a warm, hazy sky."
+    },
+    "relatedCardIds": [
+      "sex-past-forgiven",
+      "forgive-someone-hurt-me"
+    ],
+    "study": {
+      "context": "Psalm 103 is a hymn of praise traditionally attributed to David, whose name appears in its heading. It opens with the singer telling his own soul to remember God's benefits, starting with forgiveness. Verses 8–14 echo the way God described Himself to Moses in Exodus 34:6, as merciful and gracious, and then add that God remembers how frail we are. The psalm grounds forgiveness in God's character, not in how we feel about ourselves.",
+      "relatedPassages": [
+        {
+          "reference": "Romans 8:1",
+          "note": "Paul declares there is no condemnation for those who are in Christ Jesus, even when guilt says otherwise."
+        },
+        {
+          "reference": "1 John 3:20",
+          "note": "When your own heart condemns you, John reminds you that God is greater than your heart."
+        }
+      ],
+      "reflection": "Whose verdict about you are you trusting more right now: God's, or the one you keep repeating to yourself?",
+      "prayer": "God, I keep holding this against myself. Help me receive Your mercy and set down what You have already removed.",
+      "citations": [
+        "Psalm 103:2-3",
+        "Psalm 103:8",
+        "Psalm 103:14",
+        "Exodus 34:6"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "prayer-unanswered",
+    "slug": "why-does-it-feel-like-god-isnt-answering-my-prayers",
+    "status": "published",
+    "priority": 84,
+    "primaryCategory": "faith",
+    "primaryTopic": "prayer",
+    "tags": [
+      "prayer",
+      "doubt",
+      "trust"
+    ],
+    "question": "Why does it feel like God isn't answering my prayers?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Psalm 13:1-2"
+        }
+      ],
+      "fullPassage": "Psalm 13"
+    },
+    "explanation": "David asks “how long” four times in two verses, and the Bible keeps his complaint instead of editing it out. Feeling unheard by God is painful, and you're not the first to say so. The psalm doesn't explain the silence or rush to fix it. It ends with David still talking to God and choosing to trust, though it never says his situation changed.",
+    "keywords": [
+      "unanswered prayer",
+      "god is silent",
+      "god isn't listening",
+      "feel ignored by god",
+      "still waiting",
+      "prayers not working",
+      "why won't god answer",
+      "feel abandoned",
+      "how long"
+    ],
+    "interpretation": "sensitive-personal",
+    "care": "mental-health",
+    "image": {
+      "key": "prayer-unanswered",
+      "alt": "A silhouetted person on a mountaintop points a flashlight beam up into a star-filled night sky."
+    },
+    "relatedCardIds": [
+      "prayer-dont-know-how",
+      "faith-suffering"
+    ],
+    "study": {
+      "context": "Psalm 13 is a short lament, and its heading attributes it to David. Lament is one of the most common kinds of psalm: honest prayers that bring complaint, request, and trust to God. This one follows that shape closely, with two verses of complaint, two of request, and two of trust. It never says what David was facing, which may be part of why so many people have prayed it as their own.",
+      "relatedPassages": [
+        {
+          "reference": "2 Corinthians 12:8-9",
+          "note": "Paul pleaded three times for relief and was given grace to carry his weakness rather than the answer he asked for."
+        },
+        {
+          "reference": "Luke 18:1",
+          "note": "Jesus told a parable to encourage His followers to keep praying and not give up."
+        }
+      ],
+      "reflection": "If you told God honestly how long this has felt, what would you say?",
+      "prayer": "God, it feels like You're silent, and it hurts. I'm still here and still asking, so help me trust You while I wait.",
+      "citations": [
+        "Psalm 13:3-4",
+        "Psalm 13:5-6"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "bible-trust",
+    "slug": "can-i-really-trust-the-bible",
+    "status": "published",
+    "priority": 86,
+    "primaryCategory": "growing-faith",
+    "primaryTopic": "bible",
+    "tags": [
+      "bible",
+      "scripture",
+      "doubt",
+      "faith"
+    ],
+    "question": "Can I really trust the Bible?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "2 Timothy 3:16-17"
+        }
+      ],
+      "fullPassage": "2 Timothy 3:10-17"
+    },
+    "explanation": "Paul tells Timothy, a younger leader he mentored, that all Scripture is God-breathed (the literal meaning of the Greek word) and meant to shape a whole life. That's the Bible's own claim about itself, so it won't settle every doubt, and it's fair to test it. Thoughtful people raise real questions about history, authorship, and hard passages. Trust usually grows by reading closely, not by avoiding the questions.",
+    "keywords": [
+      "is the bible true",
+      "is the bible reliable",
+      "bible contradictions",
+      "who wrote the bible",
+      "can i believe the bible",
+      "bible history",
+      "doubting scripture",
+      "bible errors"
+    ],
+    "interpretation": "disputed-interpretation",
+    "image": {
+      "key": "bible-trust",
+      "alt": "An open book with softly curving pages, photographed in warm, shallow focus."
+    },
+    "relatedCardIds": [
+      "bible-where-start",
+      "faith-doubts"
+    ],
+    "study": {
+      "context": "Second Timothy presents itself as Paul's final letter, written from prison to his coworker Timothy. Many scholars question whether Paul wrote it himself, while others, along with many Christians, hold that he did. When Paul speaks of Scripture here, he mainly means the Hebrew Scriptures Timothy had known since childhood (3:15). Christians agree that the Bible is uniquely given by God, but they describe inspiration differently, including how God worked through human writers and what kinds of accuracy that implies.",
+      "relatedPassages": [
+        {
+          "reference": "2 Peter 1:21",
+          "note": "Peter describes the prophets as people who spoke from God as the Holy Spirit moved them, not by their own will."
+        },
+        {
+          "reference": "Luke 1:1-4",
+          "note": "Luke explains that he carefully drew on eyewitness accounts so his reader could be certain about what he had been taught."
+        }
+      ],
+      "reflection": "What's one honest question you have about the Bible that you'd be willing to explore instead of setting aside?",
+      "prayer": "God, I have real questions about Your Word. Give me patience to read carefully and courage to keep asking.",
+      "citations": [
+        "2 Timothy 3:15"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "bible-where-start",
+    "slug": "where-should-i-start-reading-the-bible",
+    "status": "published",
+    "priority": 76,
+    "primaryCategory": "growing-faith",
+    "primaryTopic": "bible",
+    "tags": [
+      "bible",
+      "scripture",
+      "guidance"
+    ],
+    "question": "Where should I start reading the Bible?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Psalm 119:105"
+        }
+      ],
+      "fullPassage": "Psalm 119:105-112"
+    },
+    "explanation": "Psalm 119 is a long poem of love for God's instruction, and here it pictures that word as a small lamp: enough light for the next step. You don't have to start at page one or read it all at once. Many people begin with a Gospel, like Mark or John, which tells the story of Jesus. Read a little, slowly, and notice what it shows you about Him.",
+    "keywords": [
+      "how to read the bible",
+      "bible for beginners",
+      "where to start in the bible",
+      "first time reading the bible",
+      "bible reading plan",
+      "gospel of mark",
+      "gospel of john",
+      "new to the bible",
+      "don't understand the bible"
+    ],
+    "interpretation": "modern-application",
+    "image": {
+      "key": "bible-where-start",
+      "alt": "A person holds up a red kerosene lamp against a dark background."
+    },
+    "relatedCardIds": [
+      "bible-trust",
+      "jesus-who"
+    ],
+    "study": {
+      "context": "Psalm 119 is the longest chapter in the Bible. Its author is unnamed. It is an acrostic poem with 22 stanzas, one for each letter of the Hebrew alphabet, and each of a stanza's eight verses begins with that letter. Nearly every verse mentions God's word, using terms like law, statutes, and commands. A lamp in that world was usually a small clay oil lamp that lit only the ground just ahead.",
+      "relatedPassages": [
+        {
+          "reference": "John 20:31",
+          "note": "John says he wrote his Gospel so readers could believe in Jesus and find life in Him, which makes it a natural place to begin."
+        },
+        {
+          "reference": "Acts 8:30-31",
+          "note": "A traveler reading Isaiah admits he needs someone to guide him, a reminder that it's okay to read the Bible with help."
+        }
+      ],
+      "reflection": "What's one small, realistic moment this week when you could read a few verses of Mark or John?",
+      "prayer": "God, I don't know where to begin, but I want to know You. As I read, help me understand and see Jesus more clearly."
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "church-need",
+    "slug": "do-i-need-to-go-to-church-to-follow-jesus",
+    "status": "published",
+    "priority": 84,
+    "primaryCategory": "growing-faith",
+    "primaryTopic": "church",
+    "tags": [
+      "church",
+      "community",
+      "belonging",
+      "faith"
+    ],
+    "question": "Do I need to go to church to follow Jesus?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Hebrews 10:24-25"
+        }
+      ],
+      "fullPassage": "Hebrews 10:19-25"
+    },
+    "explanation": "Hebrews was written to early Christians under pressure, and some of them had stopped meeting together. The writer doesn't treat gathering as a way to earn God's love. He treats it as how faith stays alive: people urging each other toward love and good works, and encouraging one another. Church can look different in different seasons, but the Bible pictures following Jesus as something shared, not solo.",
+    "keywords": [
+      "do i have to go to church",
+      "church attendance",
+      "faith without church",
+      "online church",
+      "skipping church",
+      "christian community",
+      "finding a church",
+      "why go to church",
+      "small group"
+    ],
+    "interpretation": "direct-teaching",
+    "image": {
+      "key": "church-need",
+      "alt": "A group of friends sits around a table sharing a meal together."
+    },
+    "relatedCardIds": [
+      "church-hurt",
+      "lonely-around-people"
+    ],
+    "study": {
+      "context": "No one knows for sure who wrote Hebrews. It was written to Christians, likely with Jewish roots, who had faced hardship for their faith and were tempted to drift away. The verses just before this say Jesus has opened a new way for people to come near to God (10:19–23). Meeting together is the natural response: because God has welcomed us, we help each other hold on. The Day mentioned in verse 25 most likely refers to the return of Christ.",
+      "relatedPassages": [
+        {
+          "reference": "Acts 2:42",
+          "note": "The first believers devoted themselves to the apostles' teaching, fellowship, the breaking of bread (which many Christians understand to include the Lord's Supper, or Communion), and prayer."
+        },
+        {
+          "reference": "1 Corinthians 12:27",
+          "note": "Paul pictures believers as one body, where each person is a needed part."
+        }
+      ],
+      "reflection": "Who are one or two people who could help you keep going in faith, and what would it take to let them in?",
+      "prayer": "Jesus, I don't want to follow You alone. Lead me to people who will encourage me, and help me encourage them.",
+      "citations": [
+        "Hebrews 10:19-23"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "church-hurt",
+    "slug": "what-if-ive-been-hurt-by-a-church",
+    "status": "published",
+    "priority": 75,
+    "primaryCategory": "growing-faith",
+    "primaryTopic": "church",
+    "tags": [
+      "church",
+      "healing",
+      "community",
+      "trust"
+    ],
+    "question": "What if I've been hurt by a church?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "Ezekiel 34:4"
+        }
+      ],
+      "fullPassage": "Ezekiel 34:1-16"
+    },
+    "explanation": "In Ezekiel's time, Israel's leaders were called shepherds, and here God condemns them for ruling harshly while the weak and wounded went uncared for. If a church or leader has hurt you, this matters. The passage puts God on the side of the hurt sheep, not the leaders who misused their power. Your pain is real, and stepping away from an unsafe place isn't the same as leaving God.",
+    "keywords": [
+      "church hurt",
+      "spiritual abuse",
+      "hurt by a pastor",
+      "left the church",
+      "toxic church",
+      "church trauma",
+      "religious trauma",
+      "can't trust church again",
+      "burned by church"
+    ],
+    "interpretation": "sensitive-personal",
+    "care": "abuse",
+    "image": {
+      "key": "church-hurt",
+      "alt": "An empty wooden church pew sits in dim, quiet light."
+    },
+    "relatedCardIds": [
+      "church-need",
+      "forgive-someone-hurt-me"
+    ],
+    "study": {
+      "context": "Ezekiel was a priest who lived among the Jewish exiles in Babylon in the sixth century BC. In the ancient world, kings and leaders were often called shepherds, and in chapter 34 God holds Israel's leaders responsible for using the people instead of caring for them. The chapter then promises that God will seek the lost and bind up the broken (34:16). These shepherds were mainly Israel's kings, but many readers apply the chapter to church leaders today: Scripture takes harm by those entrusted with God's people seriously.",
+      "relatedPassages": [
+        {
+          "reference": "1 Peter 5:2-3",
+          "note": "Peter tells church leaders to shepherd God's flock willingly, not for gain, and to lead by example rather than by lording it over those in their care."
+        },
+        {
+          "reference": "Psalm 55:12-14",
+          "note": "The psalmist grieves a betrayal by a close companion he once worshiped beside, showing that this kind of wound is named honestly in Scripture."
+        }
+      ],
+      "reflection": "What part of your experience with church still needs to be named honestly, and who is one safe person you could tell?",
+      "prayer": "God, You know what happened to me and how much it hurt. Lead me to safe people, and heal what was broken.",
+      "citations": [
+        "Ezekiel 34:16"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "heaven-what-happens",
+    "slug": "what-happens-when-we-die",
+    "status": "published",
+    "priority": 88,
+    "primaryCategory": "faith",
+    "primaryTopic": "heaven",
+    "tags": [
+      "heaven",
+      "death",
+      "eternity",
+      "hope"
+    ],
+    "question": "What happens when we die?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "2 Corinthians 5:8"
+        }
+      ],
+      "fullPassage": "2 Corinthians 5:1-10"
+    },
+    "explanation": "Paul faced death many times, and here he writes that for those who trust Jesus, being away from the body means being present with the Lord. The Bible doesn't answer every question, and Christians differ on some details, like what the time before the final resurrection is like. But its central hope is clear: death is not the end, and those who belong to Jesus are held by Him.",
+    "keywords": [
+      "what happens after death",
+      "afterlife",
+      "is heaven real",
+      "where do we go when we die",
+      "life after death",
+      "afraid of dying",
+      "soul after death",
+      "resurrection",
+      "someone i love died"
+    ],
+    "interpretation": "disputed-interpretation",
+    "care": "grief",
+    "image": {
+      "key": "heaven-what-happens",
+      "alt": "Calm, still water stretches toward the horizon in soft, cool light."
+    },
+    "relatedCardIds": [
+      "heaven-how-sure",
+      "grief-how-to-grieve"
+    ],
+    "study": {
+      "context": "Paul wrote 2 Corinthians after severe hardship, when he had even despaired of life (1:8). In chapter 5 he compares the body to a tent and looks ahead to resurrected life (5:1), and he adds that we must all one day appear before Christ as judge (5:10). Many Christians read verse 8 to mean believers are consciously with Christ after death while awaiting resurrection; some traditions describe death as a kind of sleep until then. Across traditions, Christians share the hope of bodily resurrection.",
+      "relatedPassages": [
+        {
+          "reference": "Philippians 1:21-23",
+          "note": "Facing possible death, Paul says he longs to depart and be with Christ, which he calls far better, though he also sees good in living on."
+        },
+        {
+          "reference": "John 14:2-3",
+          "note": "Jesus promises to prepare a place for His followers and to bring them to be with Him."
+        }
+      ],
+      "reflection": "When you think about death, what feels most uncertain to you, and how might you bring that question honestly to Jesus?",
+      "prayer": "Jesus, death leaves me with questions and fears. Help me trust that whatever comes, I am held by You.",
+      "citations": [
+        "2 Corinthians 1:8",
+        "2 Corinthians 5:1",
+        "2 Corinthians 5:10"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  },
+  {
+    "id": "heaven-how-sure",
+    "slug": "how-can-i-know-ill-go-to-heaven",
+    "status": "published",
+    "priority": 93,
+    "primaryCategory": "faith",
+    "primaryTopic": "heaven",
+    "tags": [
+      "heaven",
+      "salvation",
+      "grace",
+      "gospel"
+    ],
+    "question": "How can I know I'll go to heaven?",
+    "scripture": {
+      "passages": [
+        {
+          "reference": "1 John 5:13"
+        }
+      ],
+      "fullPassage": "1 John 5:9-13"
+    },
+    "explanation": "John wrote this letter so believers could “know” they have eternal life. In the New Testament, salvation is God's gift, received by trusting Jesus rather than earned by being good enough. John also points to signs of real faith, like love for others. Christians differ on how much certainty a person can have, but John's answer starts with Jesus, the Son in whom life is found.",
+    "keywords": [
+      "am i saved",
+      "assurance of salvation",
+      "will i go to heaven",
+      "how to be saved",
+      "good enough for heaven",
+      "scared of hell",
+      "eternal life",
+      "how do i know i'm saved",
+      "born again"
+    ],
+    "interpretation": "disputed-interpretation",
+    "care": "mental-health",
+    "image": {
+      "key": "heaven-how-sure",
+      "alt": "A door stands open, letting soft light in from the other side."
+    },
+    "relatedCardIds": [
+      "jesus-why-die",
+      "heaven-what-happens"
+    ],
+    "study": {
+      "context": "First John doesn't name its author, but tradition links it to the apostle John. It was written to churches unsettled after a group left their community (2:19) and apparently denied key truths about Jesus (2:22). John gives readers signs of genuine faith, like love for others (3:14), then sums up his purpose: eternal life is found in God's Son (5:11–12). Traditions differ: many Protestants stress confident assurance, while Catholic and Orthodox Christians speak of a firm hope that keeps relying on God's grace. All see salvation as God's gift.",
+      "relatedPassages": [
+        {
+          "reference": "John 3:16",
+          "note": "Eternal life is offered to whoever believes in Jesus, and it flows from God's love for the world."
+        },
+        {
+          "reference": "Ephesians 2:8-9",
+          "note": "Paul says salvation is a gift received through faith, not something earned, so no one can boast."
+        }
+      ],
+      "reflection": "Are you trying to earn God's acceptance, or are you willing to receive it as a gift?",
+      "prayer": "Jesus, I can't make myself good enough, and I'm tired of trying. I put my trust in You and receive Your gift of life.",
+      "citations": [
+        "1 John 2:19",
+        "1 John 2:22",
+        "1 John 3:14",
+        "1 John 5:11-12"
+      ]
+    },
+    "editorial": {
+      "version": 1,
+      "createdBy": "Prototype seed library",
+      "reviewer": null,
+      "theologicalReview": "pending",
+      "publishedAt": "2026-11-01",
       "updatedAt": "2026-11-01"
     }
   }

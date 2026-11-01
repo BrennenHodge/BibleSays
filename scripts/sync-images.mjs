@@ -5,7 +5,9 @@
  *
  * Unsplash API guidelines: images are hotlinked from images.unsplash.com, the
  * photographer is credited, and the photo's download endpoint is pinged once
- * when the photo is selected for use (pass --register to do that).
+ * when the photo is selected for use (pass --register to do that). Registered photo ids are
+ * recorded in scripts/data/unsplash-registered.json so reruns only ping new picks; the demo
+ * API key allows 50 requests an hour.
  *
  * Usage: node scripts/sync-images.mjs [--register]
  */
@@ -27,6 +29,9 @@ if (existsSync(envPath)) {
 }
 const register = process.argv.includes('--register');
 const utm = 'utm_source=bible_discovery_app&utm_medium=referral';
+const registeredPath = join(root, 'scripts/data/unsplash-registered.json');
+const registered = new Set(existsSync(registeredPath) ? JSON.parse(readFileSync(registeredPath, 'utf8')) : []);
+let rateLimited = false;
 
 const images = { ...existing };
 for (const [rawKey, p] of Object.entries(picks)) {
@@ -48,13 +53,18 @@ for (const [rawKey, p] of Object.entries(picks)) {
     license: 'Unsplash License',
     licenseUrl: 'https://unsplash.com/license',
   };
-  if (register && process.env.UNSPLASH_ACCESS_KEY) {
+  if (register && !rateLimited && !registered.has(p.id) && process.env.UNSPLASH_ACCESS_KEY) {
     const res = await fetch(p.downloadLocation, {
       headers: { Authorization: `Client-ID ${process.env.UNSPLASH_ACCESS_KEY}` },
     });
-    console.log(`${res.ok ? '✓' : '✗'} registered ${key}`);
+    if (res.ok) registered.add(p.id);
+    if (res.status === 403 && res.headers.get('x-ratelimit-remaining') === '0') rateLimited = true;
+    console.log(`${res.ok ? '✓' : '✗'} registered ${key}${rateLimited ? ' (rate limited; rerun later)' : ''}`);
   }
 }
 
 writeFileSync(outPath, JSON.stringify(images, null, 2) + '\n');
+if (register) writeFileSync(registeredPath, JSON.stringify([...registered].sort(), null, 2) + '\n');
+const pending = Object.values(picks).filter((p) => !registered.has(p.id)).length;
 console.log(`Wrote ${Object.keys(images).length} images to content/images.json`);
+if (register) console.log(`${registered.size} photos registered with Unsplash, ${pending} pending.`);

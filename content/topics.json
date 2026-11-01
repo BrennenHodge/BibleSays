@@ -6,23 +6,73 @@
     "categoryId": "emotional-life",
     "description": "Honest questions about worry, fear, and finding peace, answered through Scripture.",
     "order": 1,
-    "related": ["fear", "worry", "peace", "prayer"],
+    "related": [
+      "fear",
+      "worry",
+      "peace",
+      "prayer"
+    ],
     "subtopics": [
-      { "id": "immediate-overwhelm", "label": "Overwhelm" },
-      { "id": "fear-of-the-future", "label": "The future" },
-      { "id": "money-and-provision", "label": "Money stress" },
-      { "id": "work-school-pressure", "label": "Work & school" },
-      { "id": "overthinking", "label": "Overthinking" },
-      { "id": "sleep", "label": "Sleep" },
-      { "id": "approval-comparison", "label": "Comparison" },
-      { "id": "family", "label": "Family" },
-      { "id": "health-hard-seasons", "label": "Health" },
-      { "id": "control-decisions", "label": "Decisions" },
-      { "id": "faith-doubt", "label": "Faith" },
-      { "id": "shame-perfectionism", "label": "Perfectionism" },
-      { "id": "biblical-people", "label": "Bible stories" },
-      { "id": "practices-prayers", "label": "Practices" },
-      { "id": "modern-triggers", "label": "Modern triggers" }
+      {
+        "id": "immediate-overwhelm",
+        "label": "Overwhelm"
+      },
+      {
+        "id": "fear-of-the-future",
+        "label": "The future"
+      },
+      {
+        "id": "money-and-provision",
+        "label": "Money stress"
+      },
+      {
+        "id": "work-school-pressure",
+        "label": "Work & school"
+      },
+      {
+        "id": "overthinking",
+        "label": "Overthinking"
+      },
+      {
+        "id": "sleep",
+        "label": "Sleep"
+      },
+      {
+        "id": "approval-comparison",
+        "label": "Comparison"
+      },
+      {
+        "id": "family",
+        "label": "Family"
+      },
+      {
+        "id": "health-hard-seasons",
+        "label": "Health"
+      },
+      {
+        "id": "control-decisions",
+        "label": "Decisions"
+      },
+      {
+        "id": "faith-doubt",
+        "label": "Faith"
+      },
+      {
+        "id": "shame-perfectionism",
+        "label": "Perfectionism"
+      },
+      {
+        "id": "biblical-people",
+        "label": "Bible stories"
+      },
+      {
+        "id": "practices-prayers",
+        "label": "Practices"
+      },
+      {
+        "id": "modern-triggers",
+        "label": "Modern triggers"
+      }
     ]
   },
   {
@@ -32,7 +82,11 @@
     "categoryId": "relationships",
     "description": "Dating, friendship, heartbreak, and what real love looks like.",
     "order": 2,
-    "related": ["love", "forgiveness", "heartbreak"]
+    "related": [
+      "love",
+      "forgiveness",
+      "heartbreak"
+    ]
   },
   {
     "id": "habits",
@@ -41,7 +95,11 @@
     "categoryId": "modern-choices",
     "description": "Substances, struggles, and the patterns you want to change.",
     "order": 3,
-    "related": ["freedom", "self-control", "struggle"]
+    "related": [
+      "freedom",
+      "self-control",
+      "struggle"
+    ]
   },
   {
     "id": "purpose",
@@ -50,7 +108,11 @@
     "categoryId": "daily-living",
     "description": "Calling, direction, and what God wants for your life.",
     "order": 4,
-    "related": ["guidance", "trust", "decisions"]
+    "related": [
+      "guidance",
+      "trust",
+      "decisions"
+    ]
   },
   {
     "id": "money",
@@ -59,7 +121,11 @@
     "categoryId": "daily-living",
     "description": "Wealth, worry, contentment, and generosity.",
     "order": 5,
-    "related": ["contentment", "generosity", "provision"]
+    "related": [
+      "contentment",
+      "generosity",
+      "provision"
+    ]
   },
   {
     "id": "forgiveness",
@@ -68,7 +134,11 @@
     "categoryId": "relationships",
     "description": "Letting go of bitterness, and being forgiven yourself.",
     "order": 6,
-    "related": ["grace", "healing", "relationships"]
+    "related": [
+      "grace",
+      "healing",
+      "relationships"
+    ]
   },
   {
     "id": "faith-questions",
@@ -77,7 +147,11 @@
     "categoryId": "faith",
     "description": "Doubt, suffering, and the hardest questions people ask about God.",
     "order": 7,
-    "related": ["suffering", "hope", "faith"]
+    "related": [
+      "suffering",
+      "hope",
+      "faith"
+    ]
   },
   {
     "id": "prayer",
@@ -86,7 +160,11 @@
     "categoryId": "faith",
     "description": "How to talk with God, even when you don't have the words.",
     "order": 8,
-    "related": ["faith", "peace", "worry"]
+    "related": [
+      "faith",
+      "peace",
+      "worry"
+    ]
   },
   {
     "id": "digital-life",
@@ -95,7 +173,11 @@
     "categoryId": "modern-choices",
     "description": "Phones, social media, attention, and living wisely online.",
     "order": 9,
-    "related": ["attention", "wisdom", "habits"]
+    "related": [
+      "attention",
+      "wisdom",
+      "habits"
+    ]
   },
   {
     "id": "jesus",
@@ -104,36 +186,449 @@
     "categoryId": "faith",
     "description": "Who Jesus is, why He came, and what it means for you.",
     "order": 10,
-    "related": ["gospel", "grace", "rest"],
+    "related": [
+      "gospel",
+      "grace",
+      "rest"
+    ],
     "coverImageKey": "jesus-cover"
   },
-
-  { "id": "fear", "label": "fear", "kind": "tag", "categoryId": "emotional-life", "description": "What Scripture says when you're afraid." },
-  { "id": "worry", "label": "worry", "kind": "tag", "categoryId": "emotional-life", "description": "Bringing the things that keep you up to God." },
-  { "id": "peace", "label": "peace", "kind": "tag", "categoryId": "emotional-life", "description": "The peace God offers in the middle of real life." },
-  { "id": "faith", "label": "faith", "kind": "tag", "categoryId": "faith", "description": "Trusting God, even with questions." },
-  { "id": "future", "label": "future", "kind": "tag", "categoryId": "emotional-life", "description": "Facing what's ahead without being ruled by it." },
-  { "id": "trust", "label": "trust", "kind": "tag", "categoryId": "faith", "description": "Learning to rely on God." },
-  { "id": "sleep", "label": "sleep", "kind": "tag", "categoryId": "emotional-life", "description": "Rest for restless nights." },
-  { "id": "overthinking", "label": "overthinking", "kind": "tag", "categoryId": "emotional-life", "description": "When your mind won't stop looping." },
-  { "id": "provision", "label": "provision", "kind": "tag", "categoryId": "daily-living", "description": "Trusting God with what you need." },
-  { "id": "decisions", "label": "decisions", "kind": "tag", "categoryId": "daily-living", "description": "Making choices with wisdom." },
-  { "id": "wisdom", "label": "wisdom", "kind": "tag", "categoryId": "daily-living", "description": "Practical, God-given wisdom for everyday life." },
-  { "id": "guidance", "label": "guidance", "kind": "tag", "categoryId": "daily-living", "description": "Finding direction for the next step." },
-  { "id": "healing", "label": "healing", "kind": "tag", "categoryId": "emotional-life", "description": "God's care for what's been broken." },
-  { "id": "grace", "label": "grace", "kind": "tag", "categoryId": "faith", "description": "The undeserved kindness of God." },
-  { "id": "freedom", "label": "freedom", "kind": "tag", "categoryId": "modern-choices", "description": "Freedom that doesn't master you." },
-  { "id": "self-control", "label": "selfcontrol", "kind": "tag", "categoryId": "modern-choices", "description": "Living clear-minded and free." },
-  { "id": "struggle", "label": "struggle", "kind": "tag", "categoryId": "modern-choices", "description": "When change feels impossible." },
-  { "id": "contentment", "label": "contentment", "kind": "tag", "categoryId": "daily-living", "description": "Enough, and the freedom it brings." },
-  { "id": "generosity", "label": "generosity", "kind": "tag", "categoryId": "daily-living", "description": "Holding money with open hands." },
-  { "id": "attention", "label": "attention", "kind": "tag", "categoryId": "modern-choices", "description": "Where your time and focus go." },
-  { "id": "suffering", "label": "suffering", "kind": "tag", "categoryId": "faith", "description": "Pain, loss, and where God is in it." },
-  { "id": "hope", "label": "hope", "kind": "tag", "categoryId": "faith", "description": "Hope that holds in hard seasons." },
-  { "id": "gospel", "label": "gospel", "kind": "tag", "categoryId": "faith", "description": "The good news about Jesus." },
-  { "id": "rest", "label": "rest", "kind": "tag", "categoryId": "faith", "description": "Rest for the weary." },
-  { "id": "love", "label": "love", "kind": "tag", "categoryId": "relationships", "description": "What real love looks like." },
-  { "id": "dating", "label": "dating", "kind": "tag", "categoryId": "relationships", "description": "Dating with wisdom and care." },
-  { "id": "heartbreak", "label": "heartbreak", "kind": "tag", "categoryId": "relationships", "description": "When love ends and it hurts." },
-  { "id": "doubt", "label": "doubt", "kind": "tag", "categoryId": "faith", "description": "Honest questions in faith." }
+  {
+    "id": "identity",
+    "label": "Identity",
+    "kind": "primary",
+    "categoryId": "identity",
+    "description": "Who you are, what you're worth, and how God sees you.",
+    "order": 11,
+    "related": [
+      "worth",
+      "comparison",
+      "belonging"
+    ]
+  },
+  {
+    "id": "loneliness",
+    "label": "Loneliness",
+    "kind": "primary",
+    "categoryId": "identity",
+    "description": "Feeling unseen, left out, or alone — and the God who notices.",
+    "order": 12,
+    "related": [
+      "belonging",
+      "friendship",
+      "peace"
+    ]
+  },
+  {
+    "id": "anger",
+    "label": "Anger",
+    "kind": "primary",
+    "categoryId": "emotional-life",
+    "description": "Frustration, temper, and what to do with anger.",
+    "order": 13,
+    "related": [
+      "patience",
+      "forgiveness",
+      "self-control"
+    ]
+  },
+  {
+    "id": "grief",
+    "label": "Grief",
+    "kind": "primary",
+    "categoryId": "hard-seasons",
+    "description": "Loss, mourning, and hope when someone is gone.",
+    "order": 14,
+    "related": [
+      "death",
+      "hope",
+      "heaven"
+    ]
+  },
+  {
+    "id": "family",
+    "label": "Family",
+    "kind": "primary",
+    "categoryId": "family",
+    "description": "Parents, siblings, and loving the people closest to you.",
+    "order": 15,
+    "related": [
+      "parents",
+      "forgiveness",
+      "relationships"
+    ]
+  },
+  {
+    "id": "work",
+    "label": "Work",
+    "kind": "primary",
+    "categoryId": "daily-living",
+    "description": "Jobs, burnout, ambition, and whether your work matters to God.",
+    "order": 16,
+    "related": [
+      "calling",
+      "burnout",
+      "purpose"
+    ]
+  },
+  {
+    "id": "sexuality",
+    "label": "Sexuality",
+    "kind": "primary",
+    "categoryId": "love-sexuality",
+    "description": "Sex, desire, purity, and grace for your story.",
+    "order": 17,
+    "related": [
+      "purity",
+      "marriage",
+      "grace"
+    ]
+  },
+  {
+    "id": "bible",
+    "label": "Bible",
+    "kind": "primary",
+    "categoryId": "growing-faith",
+    "description": "Can you trust it, and how do you actually read it?",
+    "order": 18,
+    "related": [
+      "scripture",
+      "faith",
+      "prayer"
+    ]
+  },
+  {
+    "id": "church",
+    "label": "Church",
+    "kind": "primary",
+    "categoryId": "growing-faith",
+    "description": "Why community matters, and what to do when church hurts.",
+    "order": 19,
+    "related": [
+      "community",
+      "faith",
+      "healing"
+    ]
+  },
+  {
+    "id": "heaven",
+    "label": "Heaven",
+    "kind": "primary",
+    "categoryId": "faith",
+    "description": "What happens when we die, and the hope of eternal life.",
+    "order": 20,
+    "related": [
+      "eternity",
+      "salvation",
+      "jesus"
+    ]
+  },
+  {
+    "id": "fear",
+    "label": "fear",
+    "kind": "tag",
+    "categoryId": "emotional-life",
+    "description": "What Scripture says when you're afraid."
+  },
+  {
+    "id": "worry",
+    "label": "worry",
+    "kind": "tag",
+    "categoryId": "emotional-life",
+    "description": "Bringing the things that keep you up to God."
+  },
+  {
+    "id": "peace",
+    "label": "peace",
+    "kind": "tag",
+    "categoryId": "emotional-life",
+    "description": "The peace God offers in the middle of real life."
+  },
+  {
+    "id": "faith",
+    "label": "faith",
+    "kind": "tag",
+    "categoryId": "faith",
+    "description": "Trusting God, even with questions."
+  },
+  {
+    "id": "future",
+    "label": "future",
+    "kind": "tag",
+    "categoryId": "emotional-life",
+    "description": "Facing what's ahead without being ruled by it."
+  },
+  {
+    "id": "trust",
+    "label": "trust",
+    "kind": "tag",
+    "categoryId": "faith",
+    "description": "Learning to rely on God."
+  },
+  {
+    "id": "sleep",
+    "label": "sleep",
+    "kind": "tag",
+    "categoryId": "emotional-life",
+    "description": "Rest for restless nights."
+  },
+  {
+    "id": "overthinking",
+    "label": "overthinking",
+    "kind": "tag",
+    "categoryId": "emotional-life",
+    "description": "When your mind won't stop looping."
+  },
+  {
+    "id": "provision",
+    "label": "provision",
+    "kind": "tag",
+    "categoryId": "daily-living",
+    "description": "Trusting God with what you need."
+  },
+  {
+    "id": "decisions",
+    "label": "decisions",
+    "kind": "tag",
+    "categoryId": "daily-living",
+    "description": "Making choices with wisdom."
+  },
+  {
+    "id": "wisdom",
+    "label": "wisdom",
+    "kind": "tag",
+    "categoryId": "daily-living",
+    "description": "Practical, God-given wisdom for everyday life."
+  },
+  {
+    "id": "guidance",
+    "label": "guidance",
+    "kind": "tag",
+    "categoryId": "daily-living",
+    "description": "Finding direction for the next step."
+  },
+  {
+    "id": "healing",
+    "label": "healing",
+    "kind": "tag",
+    "categoryId": "hard-seasons",
+    "description": "God's care for what's been broken."
+  },
+  {
+    "id": "grace",
+    "label": "grace",
+    "kind": "tag",
+    "categoryId": "faith",
+    "description": "The undeserved kindness of God."
+  },
+  {
+    "id": "freedom",
+    "label": "freedom",
+    "kind": "tag",
+    "categoryId": "modern-choices",
+    "description": "Freedom that doesn't master you."
+  },
+  {
+    "id": "self-control",
+    "label": "selfcontrol",
+    "kind": "tag",
+    "categoryId": "modern-choices",
+    "description": "Living clear-minded and free."
+  },
+  {
+    "id": "struggle",
+    "label": "struggle",
+    "kind": "tag",
+    "categoryId": "modern-choices",
+    "description": "When change feels impossible."
+  },
+  {
+    "id": "contentment",
+    "label": "contentment",
+    "kind": "tag",
+    "categoryId": "daily-living",
+    "description": "Enough, and the freedom it brings."
+  },
+  {
+    "id": "generosity",
+    "label": "generosity",
+    "kind": "tag",
+    "categoryId": "daily-living",
+    "description": "Holding money with open hands."
+  },
+  {
+    "id": "attention",
+    "label": "attention",
+    "kind": "tag",
+    "categoryId": "modern-choices",
+    "description": "Where your time and focus go."
+  },
+  {
+    "id": "suffering",
+    "label": "suffering",
+    "kind": "tag",
+    "categoryId": "hard-seasons",
+    "description": "Pain, loss, and where God is in it."
+  },
+  {
+    "id": "hope",
+    "label": "hope",
+    "kind": "tag",
+    "categoryId": "faith",
+    "description": "Hope that holds in hard seasons."
+  },
+  {
+    "id": "gospel",
+    "label": "gospel",
+    "kind": "tag",
+    "categoryId": "faith",
+    "description": "The good news about Jesus."
+  },
+  {
+    "id": "rest",
+    "label": "rest",
+    "kind": "tag",
+    "categoryId": "faith",
+    "description": "Rest for the weary."
+  },
+  {
+    "id": "love",
+    "label": "love",
+    "kind": "tag",
+    "categoryId": "relationships",
+    "description": "What real love looks like."
+  },
+  {
+    "id": "dating",
+    "label": "dating",
+    "kind": "tag",
+    "categoryId": "relationships",
+    "description": "Dating with wisdom and care."
+  },
+  {
+    "id": "heartbreak",
+    "label": "heartbreak",
+    "kind": "tag",
+    "categoryId": "relationships",
+    "description": "When love ends and it hurts."
+  },
+  {
+    "id": "doubt",
+    "label": "doubt",
+    "kind": "tag",
+    "categoryId": "faith",
+    "description": "Honest questions in faith."
+  },
+  {
+    "id": "worth",
+    "label": "worth",
+    "kind": "tag",
+    "categoryId": "identity",
+    "description": "What gives you value."
+  },
+  {
+    "id": "comparison",
+    "label": "comparison",
+    "kind": "tag",
+    "categoryId": "identity",
+    "description": "Measuring yourself against everyone else."
+  },
+  {
+    "id": "belonging",
+    "label": "belonging",
+    "kind": "tag",
+    "categoryId": "identity",
+    "description": "Finding where you fit."
+  },
+  {
+    "id": "friendship",
+    "label": "friendship",
+    "kind": "tag",
+    "categoryId": "relationships",
+    "description": "Real friends and how to be one."
+  },
+  {
+    "id": "patience",
+    "label": "patience",
+    "kind": "tag",
+    "categoryId": "emotional-life",
+    "description": "Slowing down before you react."
+  },
+  {
+    "id": "death",
+    "label": "death",
+    "kind": "tag",
+    "categoryId": "hard-seasons",
+    "description": "Facing death with honesty and hope."
+  },
+  {
+    "id": "parents",
+    "label": "parents",
+    "kind": "tag",
+    "categoryId": "family",
+    "description": "Honoring and relating to your parents."
+  },
+  {
+    "id": "calling",
+    "label": "calling",
+    "kind": "tag",
+    "categoryId": "daily-living",
+    "description": "Work as part of God's purpose for you."
+  },
+  {
+    "id": "burnout",
+    "label": "burnout",
+    "kind": "tag",
+    "categoryId": "daily-living",
+    "description": "Exhaustion, rest, and limits."
+  },
+  {
+    "id": "purity",
+    "label": "purity",
+    "kind": "tag",
+    "categoryId": "love-sexuality",
+    "description": "Honoring God with your body and desires."
+  },
+  {
+    "id": "marriage",
+    "label": "marriage",
+    "kind": "tag",
+    "categoryId": "love-sexuality",
+    "description": "God's design for marriage."
+  },
+  {
+    "id": "scripture",
+    "label": "scripture",
+    "kind": "tag",
+    "categoryId": "growing-faith",
+    "description": "Reading and understanding the Bible."
+  },
+  {
+    "id": "community",
+    "label": "community",
+    "kind": "tag",
+    "categoryId": "growing-faith",
+    "description": "Faith lived out together."
+  },
+  {
+    "id": "eternity",
+    "label": "eternity",
+    "kind": "tag",
+    "categoryId": "faith",
+    "description": "Life beyond this one."
+  },
+  {
+    "id": "salvation",
+    "label": "salvation",
+    "kind": "tag",
+    "categoryId": "faith",
+    "description": "Being made right with God through Jesus."
+  },
+  {
+    "id": "shame",
+    "label": "shame",
+    "kind": "tag",
+    "categoryId": "identity",
+    "description": "Freedom from the weight of what you've done."
+  }
 ]
